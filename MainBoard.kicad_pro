@@ -25,7 +25,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|2540000|2209800|91270ea9-8f35-4059-ae95-6e9e2663bba9|00000000-0000-0000-0000-000000000000|/6deb7572-40fc-4be3-9f80-b7a356c09b38|/6deb7572-40fc-4be3-9f80-b7a356c09b38|",
+        "the diode is a hack for level shifting but the component is powered normally at 4v3"
+      ],
+      [
+        "power_pin_not_driven|368300|2552700|ebe0c33d-6e80-4633-94e8-b6d93e29536c|00000000-0000-0000-0000-000000000000|/6deb7572-40fc-4be3-9f80-b7a356c09b38|/6deb7572-40fc-4be3-9f80-b7a356c09b38|",
+        "GND come from connector header. dont want to make custom part for that"
+      ],
+      [
+        "power_pin_not_driven|469900|1282700|534cf646-2679-48ff-9b56-91800b0c7750|00000000-0000-0000-0000-000000000000|/6deb7572-40fc-4be3-9f80-b7a356c09b38|/6deb7572-40fc-4be3-9f80-b7a356c09b38|",
+        "Vbus come from connector header. dont want to make custom part for that"
+      ]
+    ],
     "meta": {
       "version": 0
     },
