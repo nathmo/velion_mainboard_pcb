@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "velion_mainboard")(type "KiCad")(uri "${KIPRJMOD}/Footprint/velion_mainboard.pretty")(options "")(descr ""))
+)
