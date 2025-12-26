@@ -5431,7 +5431,7 @@
 	)
 	(text "35-60V"
 		(exclude_from_sim no)
-		(at 19.558 38.862 0)
+		(at 19.05 37.592 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5721,7 +5721,7 @@
 	)
 	(text "40A Fuse Here\n"
 		(exclude_from_sim no)
-		(at 20.828 34.29 0)
+		(at 20.574 35.306 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5829,9 +5829,9 @@
 		)
 		(uuid "72f24263-7ab3-4c2d-9287-2d68dff7841e")
 	)
-	(text "+\n+\n-\n-"
+	(text "+\n-\n-"
 		(exclude_from_sim no)
-		(at 28.956 36.322 0)
+		(at 28.956 37.338 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5958,6 +5958,16 @@
 			)
 		)
 		(uuid "93179aca-6880-4ada-9799-5242e7518564")
+	)
+	(text "POWER is a signal\n to power on / off \n(using rising / \nfalling edge) \nthe siliXcon\n controller."
+		(exclude_from_sim no)
+		(at 103.632 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "952b87b4-4161-42c9-b89e-49372924ed43")
 	)
 	(text "2A max"
 		(exclude_from_sim no)
@@ -6529,12 +6539,6 @@
 		(uuid "411fc306-5fc8-4053-b89f-2be3dddf4e4c")
 	)
 	(junction
-		(at 39.37 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45106dc0-ee24-4b0e-87a4-64dd6acaf3fa")
-	)
-	(junction
 		(at 210.82 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6739,6 +6743,12 @@
 		(uuid "c39c24f2-ad28-41b5-871b-a2e143b48b1c")
 	)
 	(junction
+		(at 114.3 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a6162a-9151-4212-b2a1-4b405d50558a")
+	)
+	(junction
 		(at 254 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6897,10 +6907,6 @@
 	(no_connect
 		(at 347.98 231.14)
 		(uuid "7dfae922-fcfc-40e0-af1b-8a6cfd3fb070")
-	)
-	(no_connect
-		(at 196.85 186.69)
-		(uuid "815614a2-3d27-46bc-887b-238a2d45cdce")
 	)
 	(no_connect
 		(at 198.12 127)
@@ -7559,6 +7565,16 @@
 			(type default)
 		)
 		(uuid "21c149c6-a4d2-45fe-a20e-16554424d4bb")
+	)
+	(wire
+		(pts
+			(xy 114.3 60.96) (xy 114.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ff3cc8-88d9-4ed7-8e3a-8aeef8aa2c61")
 	)
 	(wire
 		(pts
@@ -8382,16 +8398,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 31.75) (xy 39.37 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ce09d97-8508-4624-ab60-56035cd457bb")
-	)
-	(wire
-		(pts
 			(xy 368.3 106.68) (xy 368.3 109.22)
 		)
 		(stroke
@@ -8599,6 +8605,16 @@
 			(type default)
 		)
 		(uuid "56965cb2-2792-4fa6-8d9c-32e9e0a0a775")
+	)
+	(wire
+		(pts
+			(xy 114.3 60.96) (xy 114.3 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5766d070-795f-4766-ac05-46bf866a8b7b")
 	)
 	(wire
 		(pts
@@ -9122,13 +9138,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 34.29) (xy 43.18 34.29)
+			(xy 106.68 46.99) (xy 106.68 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72714ea9-0c8a-48bf-a72b-efc61f26654d")
+		(uuid "728867dd-cf61-4a1e-acd5-3f7390473a74")
 	)
 	(wire
 		(pts
@@ -9259,6 +9275,16 @@
 			(type default)
 		)
 		(uuid "7767bdd6-e8d1-4bf1-a904-ad3169d54e86")
+	)
+	(wire
+		(pts
+			(xy 105.41 46.99) (xy 106.68 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c8ae3b-ff2a-4cce-82e7-550b85205dfd")
 	)
 	(wire
 		(pts
@@ -10002,6 +10028,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 69.85) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca13b3d-6ee9-4648-bc85-3fabfb20eb04")
+	)
+	(wire
+		(pts
 			(xy 297.18 195.58) (xy 297.18 198.12)
 		)
 		(stroke
@@ -10059,6 +10095,16 @@
 			(type default)
 		)
 		(uuid "a0653419-0e19-4ca1-b9ff-da28e22f7fae")
+	)
+	(wire
+		(pts
+			(xy 36.83 31.75) (xy 38.1 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1098055-7616-4a24-82df-ef3830fe2e37")
 	)
 	(wire
 		(pts
@@ -10552,16 +10598,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 31.75) (xy 39.37 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3acfbbb-3c7d-4457-9281-84e712eb538f")
-	)
-	(wire
-		(pts
 			(xy 175.26 40.64) (xy 176.53 40.64)
 		)
 		(stroke
@@ -10752,7 +10788,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 34.29) (xy 39.37 34.29)
+			(xy 36.83 34.29) (xy 43.18 34.29)
 		)
 		(stroke
 			(width 0)
@@ -11272,6 +11308,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 186.69) (xy 199.39 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c84791-cc7c-4012-9256-dec8317834c3")
+	)
+	(wire
+		(pts
 			(xy 210.82 254) (xy 213.36 254)
 		)
 		(stroke
@@ -11589,6 +11635,16 @@
 			(type default)
 		)
 		(uuid "e0c9575b-f2e2-40ae-b036-da761167e4f3")
+	)
+	(wire
+		(pts
+			(xy 115.57 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e140fafd-e90d-408e-8e65-ef6cbc9a8a0e")
 	)
 	(wire
 		(pts
@@ -12139,6 +12195,16 @@
 			(type default)
 		)
 		(uuid "fd4a9cc3-6550-4013-ae3c-ccfd08fe4f6d")
+	)
+	(wire
+		(pts
+			(xy 114.3 46.99) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0d58e8-329d-4af3-8f0e-a59b2fd19411")
 	)
 	(wire
 		(pts
@@ -27987,6 +28053,28 @@
 			)
 		)
 	)
+	(global_label "POWER"
+		(shape input)
+		(at 38.1 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f751af7-bed3-4edb-90d9-b13b7d7adbd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.5561 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN_TX"
 		(shape input)
 		(at 26.67 185.42 180)
@@ -28044,6 +28132,28 @@
 		(uuid "2b4f5e82-b8bb-4817-8e90-b00d038c2aba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 376.6842 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER_MOSFET_GATE"
+		(shape input)
+		(at 105.41 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c02a42c-9cd6-4041-81ba-04c76fa9f4da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.3469 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28137,6 +28247,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER"
+		(shape input)
+		(at 115.57 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33c2d4eb-65df-42ff-a61f-aded1b3947d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.0261 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -30165,6 +30297,28 @@
 			)
 		)
 	)
+	(global_label "POWER_MOSFET_GATE"
+		(shape input)
+		(at 199.39 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1c1b72d-2c92-4ee8-a35a-51b60407e414")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.4531 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SEAT_INPUT"
 		(shape input)
 		(at 323.85 120.65 180)
@@ -32009,6 +32163,73 @@
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20120e45-190f-47b1-ac00-239a0a9fb9ac")
+		(property "Reference" "R17"
+			(at 114.3 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 K"
+			(at 118.872 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 116.078 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5666e37e-7ed8-4e31-a123-6300363d6409")
+		)
+		(pin "2"
+			(uuid "401ff462-d14e-438e-89f3-ed4a3b01db16")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -34556,6 +34777,71 @@
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 114.3 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "646ce96e-cace-449e-991d-f753a1c045da")
+		(property "Reference" "#PWR081"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 111.252 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 114.3 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fca1fdd-3908-43db-a6c0-d232a12549ad")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -40255,6 +40541,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
+		(at 111.76 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb4b3857-d945-4a49-ae8b-ed71a863909e")
+		(property "Reference" "Q12"
+			(at 118.11 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 118.11 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
+			(at 111.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "542c4b2e-a3d0-4ce6-9ba8-7cde8bb745a4")
+		)
+		(pin "1"
+			(uuid "5fc5d7d7-ee25-419d-af55-96289cbacb25")
+		)
+		(pin "2"
+			(uuid "65550bc1-a499-4617-89e8-0b8208f650f7")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 386.08 194.31 0)
 		(unit 1)
@@ -40917,6 +41276,72 @@
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e149ed08-69e0-439f-a069-49f23fa087c3")
+		(property "Reference" "#PWR082"
+			(at 114.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1c813d8-82ef-45b0-be02-0f68f334377b")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
