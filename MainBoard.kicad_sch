@@ -5,7 +5,7 @@
 	(uuid "6deb7572-40fc-4be3-9f80-b7a356c09b38")
 	(paper "A3")
 	(lib_symbols)
-	(text "test"
+	(text "test2"
 		(exclude_from_sim no)
 		(at 148.844 113.284 0)
 		(effects
