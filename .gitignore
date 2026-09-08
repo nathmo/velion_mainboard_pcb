@@ -1,3 +1,17 @@
-.history
+# KiCad temporary / local files
 *.lck
 *.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+
+# KiCad backup directories
+*-backups/
+.history/
+MainBoard-backups/
+
+# KiCad autosave / recovery files
+*.kicad_sch.lck
+*.kicad_pcb.lck
+*.kicad_pro.lck
+
