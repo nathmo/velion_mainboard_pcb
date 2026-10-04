@@ -545,7 +545,14 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/USB_PD/USB_N": [
+        "HS_USB"
+      ],
+      "/USB_PD/USB_P": [
+        "HS_USB"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -802,7 +809,7 @@
         "uuid": "6deb7572-40fc-4be3-9f80-b7a356c09b38"
       }
     ],
-    "used_designators": "D1-11,BZ1-3,SW1-23,RV1-2",
+    "used_designators": "Q7,RV1-2,SW1-23,BZ1-3,D1-11",
     "variants": []
   },
   "sheets": [
@@ -837,6 +844,10 @@
     [
       "c814a276-2221-4002-ad67-cf9968cea346",
       "BMSinterface"
+    ],
+    [
+      "01582b60-19d7-4657-b2bf-e1fdc2b4b2ed",
+      "USB_PD"
     ]
   ],
   "text_variables": {},
