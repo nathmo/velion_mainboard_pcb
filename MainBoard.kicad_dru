@@ -1,0 +1,39 @@
+(version 1)
+
+# ---------------------------------------------------------
+# 1. VÝJIMKA PRO FAN-OUT (Zóna kolem integrovaných obvodů)
+# Pokud je spoj v oblasti pojmenované "Breakout", 
+# povolí se tenké spoje (např. 0.12 mm) a malé mezery.
+# ---------------------------------------------------------
+(rule "Allow_Neckdown_in_Breakout"
+    (constraint clearance (min 0.15mm))
+    (constraint track_width (min 0.15mm) (max 0.35mm))
+    (condition "A.insideArea('Breakout') || B.insideArea('Breakout')"))
+
+# ---------------------------------------------------------
+# 2. DIFERENCIÁLNÍ IMPEDANCE USB 2.0 HS (90 Ohm)
+# Pro dielektrikum 130 um, er 4.1 vychází šířka 0.18 mm a mezera 0.15 mm
+# ---------------------------------------------------------
+(rule "USB_Diff_90_Ohm"
+    (constraint track_width (opt 0.18mm))
+    (constraint diff_pair_gap (opt 0.15mm))
+    (condition "A.NetClass == 'HS_USB' && !A.insideArea('Breakout')"))
+
+# ---------------------------------------------------------
+# 3. IZOLACE USB OD OSTATNÍCH SIGNÁLŮ (Pravidlo 5W)
+# Aby rychlé USB nerušilo okolí a okolí nerušilo USB,
+# udržujeme mezeru alespoň 5x šířka spoje (5 * 0.18 = 0.9 mm)
+# ---------------------------------------------------------
+(rule "USB_External_Isolation"
+    (constraint clearance (min 0.9mm))
+    #(condition "A.NetClass == 'HS_USB' && B.NetClass != 'HS_USB'"))
+	(condition "A.NetClass == 'HS_USB' && B.NetClass != 'HS_USB' && !A.insideArea('Breakout') && !B.insideArea('Breakout')"))
+
+# ---------------------------------------------------------
+# 4. MAXIMÁLNÍ ROZPOJENÍ PÁRU (Uncoupled Length)
+# Diferenciální pár musí vést co nejvíce spolu. 
+# Toto omezí délku, kdy jdou spoje od sebe (např. u nožiček MCU nebo USB konektoru) na 5 mm.
+# ---------------------------------------------------------
+(rule "USB_Max_Uncoupled_Length"
+    (constraint diff_pair_uncoupled (max 5.0mm))
+    (condition "A.NetClass == 'HS_USB' && !A.insideArea('Breakout')"))
