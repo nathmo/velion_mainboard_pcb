@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "JST_JWPF") (type "KiCad") (uri "${KIPRJMOD}/lib/symbol/JST_JWPF.kicad_sym") (options "") (descr ""))
 	(lib (name "higo") (type "KiCad") (uri "${KIPRJMOD}/lib/symbol/higo.kicad_sym") (options "") (descr ""))
+	(lib (name "easyeda2kicad") (type "KiCad") (uri "${KIPRJMOD}/lib/symbol/easyeda2kicad.kicad_sym") (options "") (descr ""))
 )

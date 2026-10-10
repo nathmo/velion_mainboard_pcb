@@ -546,6 +546,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/IMU/USB_N": [
+        "HS_USB"
+      ],
+      "/IMU/USB_P": [
+        "HS_USB"
+      ],
       "/USB_PD/USB_N": [
         "HS_USB"
       ],
@@ -807,9 +813,14 @@
         "filename": "MainBoard.kicad_sch",
         "name": "MainBoard",
         "uuid": "6deb7572-40fc-4be3-9f80-b7a356c09b38"
+      },
+      {
+        "filename": "inputhmi.kicad_sch",
+        "name": "inputHMI",
+        "uuid": "2d77c2a4-a1e4-4ca9-a2a7-c713ee252b6b"
       }
     ],
-    "used_designators": "Q7,RV1-2,SW1-23,J1-3,J5-6,J8-14,J16-23,BZ1-3,D1-11",
+    "used_designators": "Q7-9,RV1-2,SW1-23,J1-3,J5-6,J8-14,J16-24,BZ1-3,#PWR112-141,D1-11,D31-34,U2-3,U5-13,U28,C114-119,IC5,R112,R126-135,TP15,TP24-25",
     "variants": []
   },
   "sheets": [
@@ -827,23 +838,23 @@
     ],
     [
       "85f7cfb4-2dca-4fea-899a-8492319a0fc4",
-      "FrontLightsControl"
+      "outputdriver"
     ],
     [
-      "6cfe125e-f9f7-4661-8f56-089867979e72",
-      "BackLightsControl"
+      "2d77c2a4-a1e4-4ca9-a2a7-c713ee252b6b",
+      "inputHMI"
     ],
     [
       "6ce09727-8bfd-4d95-a09e-fd2a2e10feee",
-      "HumanInterfaceCircuits"
+      "inputHMI"
     ],
     [
       "d8a37f98-2a8b-4436-b9d3-44ea6584471e",
       "PowertrainInterface"
     ],
     [
-      "c814a276-2221-4002-ad67-cf9968cea346",
-      "BMSinterface"
+      "db1d8b78-5baf-4473-9384-a210e1b734bd",
+      "IMU"
     ],
     [
       "01582b60-19d7-4657-b2bf-e1fdc2b4b2ed",

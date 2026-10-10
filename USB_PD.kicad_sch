@@ -5443,7 +5443,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f3e091f-f5ee-40ae-9c85-015eec752a56")
-		(property "Reference" "D28"
+		(property "Reference" "D31"
 			(at 79.502 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5557,21 +5557,19 @@
 			(uuid "0172fba3-1afb-49a9-a0c4-d6e84b54cd02")
 		)
 		(pin "2"
-			(uuid "854de733-63e9-4adb-bdd7-fdc749ea2536")
+			(uuid "ab6b9323-5ee0-412c-9d85-3747c06c68c5")
 		)
 		(pin "3"
-			(uuid "06f4b0a6-5ba0-495e-a13b-c65a63419e3e")
+			(uuid "761a3fb1-e2ab-46b8-a111-5b72f92d8c7a")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "D28")
-					(unit 2)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "D28")
+					(unit 2)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "D31")
 					(unit 2)
 				)
 			)
@@ -5589,7 +5587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13aa8ab0-d746-4786-90d3-34b538e25ac8")
-		(property "Reference" "R124"
+		(property "Reference" "R135"
 			(at 194.31 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5678,21 +5676,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "3f3b7a81-14e2-4810-949d-9cef730d947e")
+			(uuid "03e4c45a-e7da-4e04-99aa-97b92f70d1aa")
 		)
 		(pin "1"
-			(uuid "30217bcb-d81d-42a0-bed0-e479ad3a91a9")
+			(uuid "8a5c5615-d0ae-4ec4-8bb3-93630c757cce")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "R124")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "R124")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "R135")
 					(unit 1)
 				)
 			)
@@ -5710,7 +5706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ad16ada-8746-45db-bc64-54c5aa6c00a1")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0141"
 			(at 271.78 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5765,18 +5761,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "14cd6889-6ae5-4a3d-a564-c512719ba743")
+			(uuid "4392f65d-d49b-4c4c-a6c4-881634a39a72")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0192")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -5793,7 +5787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b822a1d-97a5-4afe-ace9-e0ce46794af3")
-		(property "Reference" "R125"
+		(property "Reference" "R134"
 			(at 187.706 103.886 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5869,21 +5863,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "50a573ec-7a42-4773-b2c3-11254d1da97a")
+			(uuid "5c072ae4-e404-4a46-a9ae-06c8a63450c1")
 		)
 		(pin "1"
-			(uuid "fe3b82fe-3edf-403f-80db-0c342884c86b")
+			(uuid "19ccdaba-7523-43d3-93d3-9a9c9f7639e7")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "R125")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "R125")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "R134")
 					(unit 1)
 				)
 			)
@@ -5901,7 +5893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c10d2d0-7f1c-4ace-b35f-a96eeb987f3c")
-		(property "Reference" "R119"
+		(property "Reference" "R126"
 			(at 115.57 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5979,21 +5971,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "3890ee67-a3a9-4fd2-85b4-7a7fb2ab694d")
+			(uuid "3de28d4c-ddf2-46f1-aa3e-3c41324e9a04")
 		)
 		(pin "1"
-			(uuid "6033d258-046b-4ea5-97b0-9b142793ba51")
+			(uuid "7a4fd6a0-925b-4f28-a146-43067d991497")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "R119")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "R119")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "R126")
 					(unit 1)
 				)
 			)
@@ -6010,7 +6000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e3e1996-8c70-4ac3-a6a7-1f3c5f097c6c")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0139"
 			(at 191.77 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6065,18 +6055,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e57bcaca-4edf-4c7d-9371-d74380974d2e")
+			(uuid "6905fa1d-7847-4327-8c1f-5f2c87b9d945")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0177")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -6094,7 +6082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f922d41-7941-4a75-9826-6ef9e54c7bd2")
-		(property "Reference" "R111"
+		(property "Reference" "R112"
 			(at 19.05 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6183,21 +6171,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "084062ad-6989-4a8e-9040-e40be7e33265")
+			(uuid "7b1d2d7f-72e0-493c-8365-65ee7cad0d76")
 		)
 		(pin "2"
-			(uuid "e953b442-1cab-469b-a904-903b8f93a56c")
+			(uuid "9565a176-4a64-445d-a8da-38812808c306")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "R111")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "R111")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -6215,7 +6201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23387354-007b-4d51-92db-070a54b9f28f")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0130"
 			(at 99.06 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -6270,18 +6256,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "f878d1d5-3d0d-487d-a64d-f86b9c949e11")
+			(uuid "ebe57faa-e468-4c1a-a5ce-33c6ba0e69d1")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0185")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -6299,7 +6283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27f3d835-77e0-45e7-9c7e-913e5cd59f63")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0140"
 			(at 271.78 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6354,18 +6338,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "b65e9098-8cd2-49bf-bf2a-8aca6f2f9107")
+			(uuid "b2104743-9b70-433f-9d30-4dab22531ce8")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0176")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -6383,7 +6365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "294a6155-816e-4832-8f0d-2b80fd85dda1")
-		(property "Reference" "TP22"
+		(property "Reference" "TP24"
 			(at 261.62 146.0499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6439,18 +6421,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9f8f9db-ad94-424f-80f2-fd056fdf3a8b")
+			(uuid "b1aa74a1-0122-4c5b-aa55-637f36ba8d41")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "TP22")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -6467,7 +6447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c5421d5-f0de-4441-a52c-511ddf76768f")
-		(property "Reference" "C112"
+		(property "Reference" "C114"
 			(at 76.708 102.362 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6578,21 +6558,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "3e759496-583f-4935-98a5-77f41bdeab85")
+			(uuid "8537a687-910f-4a46-af93-bc2647d65ae9")
 		)
 		(pin "1"
-			(uuid "b83e7002-afa4-4830-99ec-15d80f84c384")
+			(uuid "f3eb92bf-ec39-49d5-b23f-e61a763ba1be")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "C112")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "C112")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -6610,7 +6588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31ac11d9-7303-49eb-bcd8-3f4a1619a2bf")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0128"
 			(at 88.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6665,18 +6643,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "951149a1-ffb1-4508-93a5-cf633557570d")
+			(uuid "cdbfab91-a263-48e1-9047-821f3446cbd1")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0191")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR098")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -6694,7 +6670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "358663cf-c1d6-48af-bc79-d96b09384d1e")
-		(property "Reference" "TP23"
+		(property "Reference" "TP25"
 			(at 261.62 153.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6750,18 +6726,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8b174d6-b31d-4200-8f20-dc7315532488")
+			(uuid "1ab56b10-7794-4a7f-8f90-b69857735b26")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "TP23")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "TP23")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -6779,7 +6753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37b60fcb-e6bf-4112-8483-f49c1e04fc78")
-		(property "Reference" "Q6"
+		(property "Reference" "Q8"
 			(at 185.166 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6891,30 +6865,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "53c3c526-8cdc-4276-9d5e-8a589ed47bfe")
+			(uuid "9cef7902-b5fc-4934-96a9-830d89df7eed")
 		)
 		(pin "4"
-			(uuid "decceb5d-080c-40ce-abd3-91bb76b454c6")
+			(uuid "0730f9c0-0601-4a88-a0f8-865e030c20e6")
 		)
 		(pin "3"
-			(uuid "05381af9-0bbd-47fd-b6f8-b23c8d453335")
+			(uuid "3fb0170f-2c8e-4ddc-90a7-2d1275b81f77")
 		)
 		(pin "1"
-			(uuid "93b6a283-c91f-4aa5-843b-7fb3ca225824")
+			(uuid "a53f3f33-a524-45b3-af47-34a34883d07a")
 		)
 		(pin "5"
-			(uuid "c9ad2d35-5576-414d-a1ad-9fcac2a23939")
+			(uuid "f8034f1e-346a-45f2-9ccd-f73405430c71")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "Q6")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -6932,7 +6904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45de7aed-004b-4eff-b339-6d811ca44e9a")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0126"
 			(at 82.55 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6987,18 +6959,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e03c1be-ea7c-41df-b3a3-038e73fd01f3")
+			(uuid "3f8db187-a75b-4c2f-8913-51d1a1f7b6eb")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0190")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR096")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -7016,7 +6986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48362fc6-c902-41b1-bd59-3a41cb66d299")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0132"
 			(at 116.84 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7072,18 +7042,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "64db8ae4-5ce1-4805-a873-d652cf284c27")
+			(uuid "02455f10-ccf7-4acc-94a6-a7c2e1b23d53")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0178")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -7101,7 +7069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b0d11d4-813e-4f5c-862a-857d0cdd63c5")
-		(property "Reference" "J15"
+		(property "Reference" "J24"
 			(at 30.48 19.685 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7221,66 +7189,64 @@
 			)
 		)
 		(pin "A9"
-			(uuid "49487a79-ef13-434c-987e-df5aa663e8c3")
+			(uuid "66f01fb6-7690-4585-81c7-7a9234efd706")
 		)
 		(pin "A5"
-			(uuid "810113fd-c3f0-42b2-84cd-1d701eda32e7")
+			(uuid "9f512456-ad80-4307-a171-cd9c1dba2ad1")
 		)
 		(pin "B5"
-			(uuid "55c3f2de-1aa9-4121-ab82-10fcaa760701")
+			(uuid "753a8762-2786-407a-a16f-2192ede5ebb9")
 		)
 		(pin "B9"
-			(uuid "7321d0b3-4397-49de-b8ce-f51129dc5500")
+			(uuid "7b5859b5-8439-4727-a72d-f301d4c30310")
 		)
 		(pin "B12"
-			(uuid "b916fdae-ab3b-460d-ad11-b94f2c744424")
+			(uuid "72cfb691-3b0c-4ffb-b2c7-0d5bf3280c29")
 		)
 		(pin "A12"
-			(uuid "1f31c215-af9c-4a9a-bf52-b286aa06dd09")
+			(uuid "012e75ed-218f-4f1e-9844-4e724753236a")
 		)
 		(pin "S1"
-			(uuid "54121a7d-794a-411d-8dcd-8e6e0b9deb0c")
+			(uuid "4bfa515a-7952-494d-96c4-6fd049cb19eb")
 		)
 		(pin "B8"
-			(uuid "6ec55c74-548d-4156-9b03-86dc29b5089a")
+			(uuid "3ec89c78-b499-4900-9bef-3e1c04e223cf")
 		)
 		(pin "B1"
-			(uuid "3fd9f291-4ed0-408b-9ccb-417b5cae79c5")
+			(uuid "2c4fb91e-f6bb-4a28-9183-93dcf023e447")
 		)
 		(pin "A8"
-			(uuid "547b861e-7df0-4533-9323-478249d4390d")
+			(uuid "23b741aa-ab65-4e7b-8afa-08e5db676c39")
 		)
 		(pin "A4"
-			(uuid "3f87a940-1d56-4e6e-b4c3-ed99cfdfa4d7")
+			(uuid "2f265450-5aba-447c-95e1-438a59b70f29")
 		)
 		(pin "B4"
-			(uuid "6dd63899-ce01-49b7-b409-67d67932b37f")
+			(uuid "1bc24df6-188e-4032-9a54-c863389416aa")
 		)
 		(pin "A6"
-			(uuid "d26b8eec-09f2-48d7-8690-30dda2fb0dae")
+			(uuid "4dc7bdca-a3db-4053-b4b3-9e6cd3ee89df")
 		)
 		(pin "A7"
-			(uuid "904f90dc-648b-4764-be99-510d758731c6")
+			(uuid "8396facd-d362-49d0-8751-e9e7c2a8befd")
 		)
 		(pin "A1"
-			(uuid "f6f1efcc-faa4-4c5c-9e1c-2a17c5ca99d1")
+			(uuid "e9090441-aef6-486d-be29-927645aa7504")
 		)
 		(pin "B7"
-			(uuid "21f04f4c-0889-4a24-8b15-6f3ad7b9f4fe")
+			(uuid "e0bc5235-86d3-496c-ad8d-90dc90ee3e4a")
 		)
 		(pin "B6"
-			(uuid "f0c38ab2-ec50-485e-858a-ea36895a1f95")
+			(uuid "4f78f029-b76e-4fdc-9b1f-3af7108de159")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "J15")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "J15")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -7297,7 +7263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ed091c7-1067-4d3c-864d-ac211a282b66")
-		(property "Reference" "Q7"
+		(property "Reference" "Q9"
 			(at 209.804 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7409,24 +7375,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "44e5219e-d0f6-4e94-9c0d-0e2fb39d88a6")
+			(uuid "f81a8528-3ed7-4030-8dca-092555f0181c")
 		)
 		(pin "4"
-			(uuid "191642bd-a847-4d76-bd0e-9956845b3db8")
+			(uuid "8a8f0289-a18a-44cf-b09c-ccd76b20eaa6")
 		)
 		(pin "3"
-			(uuid "40b7f435-802f-4827-b61e-e1df662516b0")
+			(uuid "69a20b9c-744e-4cb9-88aa-9b0641dd3f57")
 		)
 		(pin "1"
-			(uuid "4a4aad03-f691-48a3-bdbd-e90aca15189d")
+			(uuid "fcfbb251-59d1-41b6-a28f-e04205b5bc75")
 		)
 		(pin "5"
-			(uuid "3bcf4a39-04db-4546-b65c-72b06b43fa0b")
+			(uuid "01673af9-e059-4f0d-9a95-e87141dcf9fd")
 		)
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "Q7")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -7443,7 +7413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54ec4811-acb2-4359-8a86-9b80808a9180")
-		(property "Reference" "R122"
+		(property "Reference" "R131"
 			(at 160.02 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7543,21 +7513,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "a41a4b08-4f06-4214-a9fb-19100eb135a6")
+			(uuid "77bd479e-5a61-4062-b063-0f17433ff8fb")
 		)
 		(pin "1"
-			(uuid "bde8b1fa-3ae8-4936-9db8-5ba5fc9d94cd")
+			(uuid "23fd449a-c0b9-4d5f-9c14-2fc5559d5ed6")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "R122")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "R122")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "R131")
 					(unit 1)
 				)
 			)
@@ -7575,7 +7543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55a9c2d8-be2a-41cb-b963-566a4e53e13e")
-		(property "Reference" "TP11"
+		(property "Reference" "TP15"
 			(at 148.59 18.2879 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7631,18 +7599,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9496b9e-55ec-4bb8-b9b9-10233a7f7fd9")
+			(uuid "8a479848-0e65-493e-aa9f-72358b2e0d8e")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "TP11")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -7660,7 +7626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d57837b-75b7-439f-af43-61cce69c74d2")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0124"
 			(at 72.39 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7715,18 +7681,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "3390710a-fa4e-4318-bdf2-8e6e2011259e")
+			(uuid "b76cf6a8-d665-4c3b-84ef-47ee0216d89d")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0189")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR094")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -7743,7 +7707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6218f416-7dcd-4ad6-96e3-bf3d2cc9be22")
-		(property "Reference" "C109"
+		(property "Reference" "C117"
 			(at 106.172 155.956 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7854,21 +7818,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "8593e676-7f99-4fb5-8d66-43784c00ac3e")
+			(uuid "6c4f218a-d194-4217-a856-f6f40058d78c")
 		)
 		(pin "1"
-			(uuid "72cd70b6-392b-4dea-b7e6-95ce1219f3c6")
+			(uuid "1ab50a43-30d5-451d-9a23-1834a97d6782")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "C109")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "C109")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -7886,7 +7848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6290f11c-1b6d-4722-b178-1e654b9f02b4")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0131"
 			(at 107.95 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -7941,18 +7903,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d240b2c-d2a1-4a37-966d-69f24d0bfc6d")
+			(uuid "a457c9c3-2b9e-4d3e-bdc6-e4b0ac3be721")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0186")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -7969,7 +7929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d48ed3a-cd82-4970-9b05-14cb41259a81")
-		(property "Reference" "C111"
+		(property "Reference" "C115"
 			(at 97.028 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8025,21 +7985,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "b1450607-2d5b-47a0-9876-ab1bcb9f65a2")
+			(uuid "251b8c0c-1f6f-4155-9340-9190d5bafe9d")
 		)
 		(pin "1"
-			(uuid "a8f65c92-0306-4473-9597-d4ccaaa9d98b")
+			(uuid "fc34199a-fa45-47d0-aee4-c7785b1ef5fa")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "C111")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "C111")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -8057,7 +8015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dfa5a87-6d0e-4d7d-a0ec-17dbc7670b54")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0136"
 			(at 137.16 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8112,18 +8070,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "05cc4bc0-7e45-4b27-91fd-5b326791f4aa")
+			(uuid "954cc387-bf33-4314-be32-4982a04bdfb0")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0180")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -8140,7 +8096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73dd2846-1113-4e46-9686-914eb9df624d")
-		(property "Reference" "U27"
+		(property "Reference" "U28"
 			(at 99.06 37.465 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8260,33 +8216,31 @@
 			)
 		)
 		(pin "5"
-			(uuid "cb69a3f2-af02-4443-8d6c-88aef8ae916e")
+			(uuid "a9f3df03-b736-4c18-9582-3449a5bfb3a4")
 		)
 		(pin "2"
-			(uuid "483f9290-d2fe-480f-96dc-cc29c33d7d26")
+			(uuid "7a88cdf6-de7e-4915-b701-a8090137c5f4")
 		)
 		(pin "6"
-			(uuid "b1d91218-784b-4f46-9c06-2bb34bbe2f99")
+			(uuid "46365dc8-0112-4183-849e-864d3ecfca19")
 		)
 		(pin "1"
-			(uuid "67b3c07b-8990-456d-8668-bc20d3216c7e")
+			(uuid "466139d0-b4a1-4a80-9f23-71f89276deb7")
 		)
 		(pin "3"
-			(uuid "4c13d499-13bf-4209-bf0a-07e0cc454e9d")
+			(uuid "ac4b3d1f-4f01-4e2a-bdd6-57ec798ea16f")
 		)
 		(pin "4"
-			(uuid "bcc4c5ad-d0f5-48da-a25a-1729d40c3dbf")
+			(uuid "189e605e-613b-4600-bd56-c2923663bc57")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "U27")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "U27")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "U28")
 					(unit 1)
 				)
 			)
@@ -8304,7 +8258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7505b13e-63b8-47ac-86fb-ad097d6f93f1")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0125"
 			(at 78.74 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8359,18 +8313,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "35ea4101-a274-4944-8846-5d73543f3f20")
+			(uuid "741e5db5-3c0b-49cf-8eee-7bda74784ef9")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0175")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR095")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -8387,7 +8339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "781576dd-91a9-4310-ab12-b6ba19f3557c")
-		(property "Reference" "C110"
+		(property "Reference" "C116"
 			(at 97.028 155.702 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8498,21 +8450,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "0749ba66-1099-4753-8220-11d1a307b7ed")
+			(uuid "44080fe4-9a30-40cf-925b-01bd8e83f533")
 		)
 		(pin "1"
-			(uuid "745b2e8c-283d-420b-9c08-3299f484589b")
+			(uuid "2cd26702-df75-4839-80d3-ecd6d71a95a9")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "C110")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "C110")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -8529,7 +8479,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7be0a6f8-5317-4c44-9eac-4dcb3e671f0b")
-		(property "Reference" "D28"
+		(property "Reference" "D31"
 			(at 68.834 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8640,24 +8590,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "0172fba3-1afb-49a9-a0c4-d6e84b54cd03")
+			(uuid "faea9ea1-78aa-4541-9454-c91d3339b81b")
 		)
 		(pin "2"
 			(uuid "854de733-63e9-4adb-bdd7-fdc749ea2537")
 		)
 		(pin "3"
-			(uuid "06f4b0a6-5ba0-495e-a13b-c65a63419e3f")
+			(uuid "4bcec1f6-b171-4a62-a3cf-2d6ee986365f")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "D28")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "D28")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -8675,7 +8623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92704e50-1a89-4376-8645-1ec70993faec")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0123"
 			(at 30.48 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8730,18 +8678,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "6de899e4-15e6-406f-a3aa-5b7567f10f64")
+			(uuid "56859758-346c-47ed-bbf4-b4ada2a218a3")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0174")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR093")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -8759,7 +8705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0e23f94-8540-4b08-923a-475e72bc2213")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0137"
 			(at 161.29 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -8814,18 +8760,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0ff8d70-2f62-4d40-a859-aba394bcfef0")
+			(uuid "c182d3c5-3c28-4d3b-9ffa-aa0cc46728d3")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0182")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -8842,7 +8786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a90088d5-f18c-429d-a9a8-0c1ff6dda9f9")
-		(property "Reference" "R116"
+		(property "Reference" "R128"
 			(at 125.73 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8931,21 +8875,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "ac6e959c-7dba-4e49-a0a9-d5bb15507e9a")
+			(uuid "87fbc98d-75a1-41c8-8a4d-45e2e9a8bffc")
 		)
 		(pin "1"
-			(uuid "4ca95e87-dc17-4dae-ac44-f8c5e0759e1a")
+			(uuid "51a65c97-d920-4af6-8af8-83762494ebb5")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "R116")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "R116")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "R128")
 					(unit 1)
 				)
 			)
@@ -8963,7 +8905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b272ffc4-df4e-46b3-ab87-55ae623fbe31")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0129"
 			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9018,18 +8960,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "33e63f52-92e2-4e10-97b4-1372f4603950")
+			(uuid "bf722b1a-31c0-4b14-879e-4c5f3f521793")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0188")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR099")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -9047,7 +8987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b999a7ce-d7c1-4816-9342-03b04bcaa7f1")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0134"
 			(at 128.27 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9102,18 +9042,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b34c991-69c9-4eeb-8f96-d972e6bcc87f")
+			(uuid "ca025711-e030-44d2-9e37-9dff08b45263")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0181")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -9130,7 +9068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfe8c32c-2457-41ec-90fd-3d3abdc11e5f")
-		(property "Reference" "D30"
+		(property "Reference" "D34"
 			(at 268.986 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9241,21 +9179,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "88011cfe-6233-440e-b8bf-c9528d147f5b")
+			(uuid "653782a7-1bec-470e-9944-96729d0a2f0a")
 		)
 		(pin "2"
-			(uuid "8e75e569-634b-4c05-8910-deff432d6951")
+			(uuid "0e552d5a-eece-4b9a-856b-1142c243f747")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "D30")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "D30")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -9273,7 +9209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1cd0684-a68a-438c-89a3-6ca7d7e691f0")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0127"
 			(at 91.44 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9329,18 +9265,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed6d1076-d86c-4b1f-9650-a5c4a52f6873")
+			(uuid "10663388-1196-4712-aac1-bd3d7586ef38")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0179")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR097")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -9357,7 +9291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7ae3087-b290-499f-913f-159d960e17d1")
-		(property "Reference" "R123"
+		(property "Reference" "R132"
 			(at 175.514 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9435,21 +9369,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "8290e37d-390b-4f12-ae5f-ba0249c64dbc")
+			(uuid "3172478d-6920-4933-9226-be61edf8b500")
 		)
 		(pin "1"
-			(uuid "e872347c-92bd-48bb-a628-0662365c0553")
+			(uuid "38131ce8-10c2-46b1-8ce5-eba2520ddbc5")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "R123")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "R123")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "R132")
 					(unit 1)
 				)
 			)
@@ -9467,7 +9399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9b4b28f-7609-452d-a22d-80c15e08c350")
-		(property "Reference" "IC2"
+		(property "Reference" "IC5"
 			(at 161.29 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9578,90 +9510,88 @@
 			)
 		)
 		(pin "5"
-			(uuid "e7ed116d-1263-45ab-a0a9-afa24d2d6d1f")
+			(uuid "5f540ec8-e9f5-46e5-a6c0-520779183a5d")
 		)
 		(pin "4"
-			(uuid "2beae437-86b6-49e3-9acc-d9d6cdf2a26b")
+			(uuid "b8dee023-26e8-43de-9703-2916e857e915")
 		)
 		(pin "3"
-			(uuid "e2198871-0fe3-4b71-aa69-9aa448fadb53")
+			(uuid "c6757710-a51d-48fa-9e8e-904e8dd54818")
 		)
 		(pin "2"
-			(uuid "ebb63360-c2a2-4b30-a8ff-d19713cc949e")
+			(uuid "30626f64-18a0-4619-b5b6-87af44f069d2")
 		)
 		(pin "1"
-			(uuid "495f76c9-504e-47e3-9baa-49171100529a")
+			(uuid "09486e27-293b-4266-ad8d-cdca320f3b1d")
 		)
 		(pin "11"
-			(uuid "395b2d27-ef74-447a-b8ef-c3374618c9c0")
+			(uuid "3ccce24d-213a-44f6-83c3-4df5fe82b0fc")
 		)
 		(pin "25"
-			(uuid "70900216-8873-4a8b-9611-371b09fcdda1")
+			(uuid "d50bfced-7008-4484-afd9-c0f8bfdf791c")
 		)
 		(pin "12"
-			(uuid "811091d1-c9bf-4ebf-9240-dd9af54a8fc6")
+			(uuid "168b36df-f5d3-4dda-b22d-cdb2405bd55f")
 		)
 		(pin "13"
-			(uuid "42ee73ee-8713-4dc9-b72d-4006f8de03a4")
+			(uuid "95258c26-af49-4a0b-9385-affbbed23fd9")
 		)
 		(pin "14"
-			(uuid "26ce1b3d-0c26-413f-aa4f-efae2f8454b9")
+			(uuid "60b6ae95-bad1-49f8-9cc4-cfdef870deaa")
 		)
 		(pin "15"
-			(uuid "c0e63878-3169-4dbf-b398-9007bcdd6884")
+			(uuid "e65954fd-5118-4763-8550-ca6ea948bb25")
 		)
 		(pin "8"
-			(uuid "5830021f-a872-4a8c-b278-f8fabeb05831")
+			(uuid "bceb694f-5df7-446b-b3d3-b733c6d6fda9")
 		)
 		(pin "6"
-			(uuid "13bdf2a1-a7ce-4260-b151-aec02d7883e4")
+			(uuid "58051089-2bb1-457d-817b-e654eba1f029")
 		)
 		(pin "7"
-			(uuid "4e3f4c68-93b8-40fa-a517-7618f7f0715b")
+			(uuid "bacdb51a-2955-4750-894c-035d5568e30d")
 		)
 		(pin "24"
-			(uuid "580b8754-fff5-455c-b484-69df818f99c7")
+			(uuid "e2fb0787-dc9b-4d4d-a119-5c11273de199")
 		)
 		(pin "17"
-			(uuid "df63b049-0be2-4934-9edc-db6015e9df68")
+			(uuid "0bcea3d4-8b4d-4d1a-ae56-1ca56bd31ddd")
 		)
 		(pin "18"
-			(uuid "9e98b792-d9af-42ef-8abb-17c7410d3917")
+			(uuid "0a422e8c-bd08-4436-92aa-6e993e3a7914")
 		)
 		(pin "19"
-			(uuid "7dc56d6a-cd05-4ab9-8f5c-4c20a40b794f")
+			(uuid "8c490171-b70b-4d92-877a-66e2f2cab4e5")
 		)
 		(pin "20"
-			(uuid "c7211d79-b56f-412c-a8b6-5498796a26f7")
+			(uuid "eb24572e-793b-478b-aa57-88227f8cbce7")
 		)
 		(pin "21"
-			(uuid "b8316459-b80e-46d7-8352-b62832ca110e")
+			(uuid "721309c8-fe3c-49f4-8fe7-0f5bd8c02df2")
 		)
 		(pin "22"
-			(uuid "08459c08-481d-442a-9baa-9d2b6cab6395")
+			(uuid "65a98b06-fd66-49f4-8678-413e109d399e")
 		)
 		(pin "23"
-			(uuid "93f6c942-185d-42bd-a0b7-91c794f7a596")
+			(uuid "a9cab8bf-d6bc-41ba-affa-fcbb815aaf72")
 		)
 		(pin "16"
-			(uuid "125c2810-d26a-4360-b73b-c3d2641d0fd8")
+			(uuid "b67ef6be-e75b-45a6-a4e2-608f8abaaf2f")
 		)
 		(pin "9"
-			(uuid "8edd7616-c513-4110-bbf0-042fa7f18f2f")
+			(uuid "45f05514-73cb-4533-b372-b6089d9765f2")
 		)
 		(pin "10"
-			(uuid "fd183e94-7070-4251-a70d-2ce01be00227")
+			(uuid "25df7028-9253-4ac5-95db-415192da5d1f")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "IC2")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -9679,7 +9609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdac3f85-4a5f-408f-ad2a-80aa8bd3c634")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0133"
 			(at 118.11 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9734,18 +9664,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "12e10c9a-162a-4f06-b3a0-7ee337952bd7")
+			(uuid "49f143bc-5b4c-4ab9-b16f-a7ab75026ad4")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0187")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -9762,7 +9690,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d43e80a1-c2c5-45ee-8d45-d0e67e661c9a")
-		(property "Reference" "D27"
+		(property "Reference" "D33"
 			(at 96.266 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9862,21 +9790,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "60447f47-ec48-4c50-bcb3-de7d525e6d01")
+			(uuid "48748fb2-8ab6-45eb-841b-3c54dfec3d0d")
 		)
 		(pin "1"
-			(uuid "776de451-ce8d-4c0c-ad33-4622ba0f7395")
+			(uuid "84affff8-dd72-4a7b-9745-5141185f0e0a")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "D27")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "D27")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -9893,7 +9819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9b1308f-53b5-4bfa-aa4e-2947add87bcb")
-		(property "Reference" "C113"
+		(property "Reference" "C119"
 			(at 188.722 48.768 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10004,21 +9930,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "dccf6227-a70d-4079-841b-51034915054e")
+			(uuid "13b2d569-4389-4845-b2c0-ff1323108e67")
 		)
 		(pin "1"
-			(uuid "b3cb6495-a1f0-4203-82b8-e1e333afa310")
+			(uuid "799fda2f-d55e-4275-9b34-adb984b21ce9")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "C113")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "C113")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "C119")
 					(unit 1)
 				)
 			)
@@ -10036,7 +9960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcddbee4-e2b4-4233-8d8b-e31b042e86bb")
-		(property "Reference" "R118"
+		(property "Reference" "R133"
 			(at 185.42 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10125,21 +10049,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "8dafb28d-61d6-4bf0-b2b0-a3ca0a1d659f")
+			(uuid "c2fe8992-32be-4cac-ad28-cbe7704aad1f")
 		)
 		(pin "1"
-			(uuid "d754eb3c-8d42-4a60-b7cd-120f86249d02")
+			(uuid "3c0bf0be-3a09-4686-aeb6-1be3ac847610")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "R118")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "R118")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "R133")
 					(unit 1)
 				)
 			)
@@ -10157,7 +10079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e08073a7-b6d5-4f0a-a786-a17b9e8e542a")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0122"
 			(at 22.86 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10212,18 +10134,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "39e3b3a7-55ce-476b-9c0d-cd81e73eeada")
+			(uuid "4083d05c-2e30-4edc-8b9a-a54a507e0164")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0173")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR092")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -10241,7 +10161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4ebd881-a825-4848-850e-00a0c64b24ae")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0135"
 			(at 127 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10297,18 +10217,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "dfc09328-e5ce-450d-91e1-ab0d9a2ba877")
+			(uuid "b5cc4147-00c7-42d1-9873-f69fad0cc32b")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0184")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -10325,7 +10243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec90cae7-3ec5-44c3-bdae-6168a37b9b0b")
-		(property "Reference" "D29"
+		(property "Reference" "D32"
 			(at 86.106 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10436,21 +10354,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "05fafe02-834b-448f-8927-cb0d1f55b36c")
+			(uuid "66bf8f20-1d55-4056-b193-4733acd03723")
 		)
 		(pin "2"
-			(uuid "c75a56c3-cc8c-4c2b-adec-a4283cacc239")
+			(uuid "4d48058e-bc2f-4a2e-9e8f-1267186e98e0")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "D29")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "D29")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -10468,7 +10384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eff51b54-cd54-4d3c-bcf3-c35bde0d5711")
-		(property "Reference" "R120"
+		(property "Reference" "R127"
 			(at 115.57 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10546,21 +10462,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "c1811e45-7e15-481b-8e64-0619b56351be")
+			(uuid "0782ec57-4ff9-47e9-b91e-0ee0d55e14ae")
 		)
 		(pin "1"
-			(uuid "cabbb782-ed21-40fe-934c-e8e17c2afb75")
+			(uuid "9615af8b-f6e9-4527-92f8-ef98f778565b")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "R120")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "R120")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "R127")
 					(unit 1)
 				)
 			)
@@ -10577,7 +10491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f07556b6-9504-4fa8-ba5e-5499724e7b48")
-		(property "Reference" "R117"
+		(property "Reference" "R129"
 			(at 134.62 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10666,21 +10580,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "7a93fa79-ab4f-4bf8-8cf0-90420af5427f")
+			(uuid "8a6720a7-555d-412b-8128-998f24dc5c70")
 		)
 		(pin "1"
-			(uuid "846e0014-940a-40b5-b573-5246ea1c4600")
+			(uuid "12907223-15fc-4b32-a045-4b99673e9742")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "R117")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "R117")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "R129")
 					(unit 1)
 				)
 			)
@@ -10697,7 +10609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7428495-848e-4ff9-b525-5b0a4c2e420e")
-		(property "Reference" "R121"
+		(property "Reference" "R130"
 			(at 160.02 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10786,21 +10698,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "5bc7c2ad-b294-487b-8bc8-fd32e8a1d930")
+			(uuid "99894ec0-f75f-4d9f-ab7a-2d6a472e481e")
 		)
 		(pin "1"
-			(uuid "31d28ea4-48bc-44d6-b08f-e0232438c03a")
+			(uuid "e4d8e594-9c6f-4dda-b1da-d964128db9eb")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "R121")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "R121")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "R130")
 					(unit 1)
 				)
 			)
@@ -10817,7 +10727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9b00005-18e5-48a6-b968-113f4e5a3f32")
-		(property "Reference" "C108"
+		(property "Reference" "C118"
 			(at 116.332 155.448 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10928,21 +10838,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "6b7411ac-1cc9-4ca0-b853-059dfc26a5e0")
+			(uuid "505d58f8-e081-4b94-a05b-8b8bca3c06c4")
 		)
 		(pin "1"
-			(uuid "0f56482d-9180-4807-8fef-18ec374abbb5")
+			(uuid "ce320a0d-9776-4399-aac9-112ca4af1dc2")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "C108")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "C108")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -10960,7 +10868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdbf0938-cabf-45d4-b7d1-592cb40109ea")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0138"
 			(at 182.88 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11015,18 +10923,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "427ada51-7600-4139-9a8f-61fb0614e0f7")
+			(uuid "c79c9f4d-c1cc-4927-99b8-d112b6dd0c4c")
 		)
 		(instances
-			(project "0013-0001_Robot_Controller"
-				(path "/1b60b7e7-af93-4489-a0bb-cc03a0b4ede4/dc5e35ed-15b9-4366-9ed3-b4278346cd4c"
-					(reference "#PWR0183")
-					(unit 1)
-				)
-			)
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/01582b60-19d7-4657-b2bf-e1fdc2b4b2ed"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/db1d8b78-5baf-4473-9384-a210e1b734bd"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
