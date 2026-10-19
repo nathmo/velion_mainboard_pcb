@@ -1,0 +1,29 @@
+# KiCad backups and autosave
+*-backups/
+_autosave-*
+\#auto_saved_files\#
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*.history
+*.history_trim
+
+# Lock files (created while a file is open)
+~*.lck
+*.lck
+
+# Per-user local state (window layout, visible layers)
+*.kicad_prl
+
+# Caches
+fp-info-cache
+*.cache
+
+# Generated outputs (remove these lines if you want to version fab files)
+*-gerbers/
+gerbers/
+production/
+*.zip
+*.step
+*.wrl
