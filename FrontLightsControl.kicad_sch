@@ -2106,7 +2106,7 @@
 		)
 		(uuid "a49cd5fc-dd58-4bd7-ab94-27159b895d62")
 	)
-	(text_box "FaultRST can be pulled low to reset an ouput.\nFor instance if the output is overloaded the chip will enter fault mode.\nsetting this pin low will reset the affect output and try to resume operation in the case of a transient failure (short)\n"
+	(text_box "FaultRST can be pulled low to reset an ouput.\nIf the output is overloaded the chip will enter fault mode.\nsetting this pin low will reset the affect output and try to resume operation in the case of a transient failure (short)\n"
 		(exclude_from_sim no)
 		(at 102.87 176.53 0)
 		(size 33.02 20.3053)
@@ -7652,7 +7652,7 @@
 		(uuid "07f44b4f-e0f7-4879-8eb0-36ca2557f3b7")
 	)
 	(hierarchical_label "output2"
-		(shape output)
+		(shape input)
 		(at 30.48 64.77 180)
 		(effects
 			(font
@@ -7663,7 +7663,7 @@
 		(uuid "0c315729-c046-4448-8e68-ee8b6e83d2a5")
 	)
 	(hierarchical_label "output23"
-		(shape output)
+		(shape input)
 		(at 187.96 148.59 180)
 		(effects
 			(font
@@ -7674,7 +7674,7 @@
 		(uuid "0d39b3e2-6b29-48ac-a212-793f8133873b")
 	)
 	(hierarchical_label "selE"
-		(shape output)
+		(shape input)
 		(at 109.22 36.83 180)
 		(effects
 			(font
@@ -7685,7 +7685,7 @@
 		(uuid "0e2371b9-55b7-443e-bf15-6faa6368e3ce")
 	)
 	(hierarchical_label "selH"
-		(shape output)
+		(shape input)
 		(at 109.22 135.89 180)
 		(effects
 			(font
@@ -7696,7 +7696,7 @@
 		(uuid "10030d26-6caa-4b3e-a681-35ea5d0a4171")
 	)
 	(hierarchical_label "output10"
-		(shape output)
+		(shape input)
 		(at 109.22 64.77 180)
 		(effects
 			(font
@@ -7707,7 +7707,7 @@
 		(uuid "1042b539-d4fa-4e70-a6ea-3fd75fac89e1")
 	)
 	(hierarchical_label "output1"
-		(shape output)
+		(shape input)
 		(at 30.48 49.53 180)
 		(effects
 			(font
@@ -7718,7 +7718,7 @@
 		(uuid "11bc0503-42e9-4910-be6b-d31b5ed7af6c")
 	)
 	(hierarchical_label "output19"
-		(shape output)
+		(shape input)
 		(at 187.96 82.55 180)
 		(effects
 			(font
@@ -7740,7 +7740,7 @@
 		(uuid "25a1334c-31e7-4dd7-acc8-f41d97208492")
 	)
 	(hierarchical_label "SEL1"
-		(shape output)
+		(shape input)
 		(at 22.86 173.99 180)
 		(effects
 			(font
@@ -7751,7 +7751,7 @@
 		(uuid "2794ba60-6b80-4f8f-8bdf-2d5da91eec89")
 	)
 	(hierarchical_label "output18"
-		(shape output)
+		(shape input)
 		(at 187.96 64.77 180)
 		(effects
 			(font
@@ -7784,7 +7784,7 @@
 		(uuid "3303f31f-7a9d-46e9-b47c-0066efd76344")
 	)
 	(hierarchical_label "selG"
-		(shape output)
+		(shape input)
 		(at 109.22 102.87 180)
 		(effects
 			(font
@@ -7806,7 +7806,7 @@
 		(uuid "383717e2-e159-4387-9580-b8cadd27a7f7")
 	)
 	(hierarchical_label "selI"
-		(shape output)
+		(shape input)
 		(at 187.96 36.83 180)
 		(effects
 			(font
@@ -7817,7 +7817,7 @@
 		(uuid "3a2d48db-e32d-4fc4-804d-98d66542a01c")
 	)
 	(hierarchical_label "~{FaultRST}"
-		(shape output)
+		(shape input)
 		(at 22.86 166.37 180)
 		(effects
 			(font
@@ -7828,7 +7828,7 @@
 		(uuid "3ae52363-a985-47e6-b370-3b0d95580e68")
 	)
 	(hierarchical_label "output20"
-		(shape output)
+		(shape input)
 		(at 187.96 97.79 180)
 		(effects
 			(font
@@ -7839,7 +7839,7 @@
 		(uuid "3bb6d109-f3e6-4394-a731-9e5e170b4bd9")
 	)
 	(hierarchical_label "output5"
-		(shape output)
+		(shape input)
 		(at 30.48 115.57 180)
 		(effects
 			(font
@@ -7850,7 +7850,7 @@
 		(uuid "4032d69e-612c-4ec6-bb81-3ca734885079")
 	)
 	(hierarchical_label "output16"
-		(shape output)
+		(shape input)
 		(at 187.96 31.75 180)
 		(effects
 			(font
@@ -7861,7 +7861,7 @@
 		(uuid "4116dd62-ade9-4a98-b61a-69428f9c0501")
 	)
 	(hierarchical_label "selA"
-		(shape output)
+		(shape input)
 		(at 30.48 36.83 180)
 		(effects
 			(font
@@ -7872,7 +7872,7 @@
 		(uuid "42915187-6f04-40ea-ae03-df8e6adf2916")
 	)
 	(hierarchical_label "output14"
-		(shape output)
+		(shape input)
 		(at 109.22 130.81 180)
 		(effects
 			(font
@@ -7883,7 +7883,7 @@
 		(uuid "42e43f41-c870-46b6-a9b4-33ac08cd06f3")
 	)
 	(hierarchical_label "selK"
-		(shape output)
+		(shape input)
 		(at 187.96 102.87 180)
 		(effects
 			(font
@@ -7905,7 +7905,7 @@
 		(uuid "44b56eb3-5539-4e6b-a2ad-2a620d9c77ab")
 	)
 	(hierarchical_label "output8"
-		(shape output)
+		(shape input)
 		(at 109.22 31.75 180)
 		(effects
 			(font
@@ -7916,7 +7916,7 @@
 		(uuid "46663df1-3538-48fa-bdb1-b64be8b6ea1e")
 	)
 	(hierarchical_label "selJ"
-		(shape output)
+		(shape input)
 		(at 187.96 69.85 180)
 		(effects
 			(font
@@ -7949,7 +7949,7 @@
 		(uuid "5b5dd24a-c04e-404a-9859-b3d146cf3110")
 	)
 	(hierarchical_label "selF"
-		(shape output)
+		(shape input)
 		(at 109.22 69.85 180)
 		(effects
 			(font
@@ -7960,7 +7960,7 @@
 		(uuid "64b18175-882c-4068-83ad-154fff910c28")
 	)
 	(hierarchical_label "output9"
-		(shape output)
+		(shape input)
 		(at 109.22 49.53 180)
 		(effects
 			(font
@@ -7971,7 +7971,7 @@
 		(uuid "6513adb8-d69b-4e3b-ac15-38c8e0f113a0")
 	)
 	(hierarchical_label "output21"
-		(shape output)
+		(shape input)
 		(at 187.96 115.57 180)
 		(effects
 			(font
@@ -7993,7 +7993,7 @@
 		(uuid "6bbbf429-c03f-43e3-94c9-a836e5fe90af")
 	)
 	(hierarchical_label "output15"
-		(shape output)
+		(shape input)
 		(at 109.22 148.59 180)
 		(effects
 			(font
@@ -8004,7 +8004,7 @@
 		(uuid "6cf2dd12-1bae-4698-a941-d06154b82dba")
 	)
 	(hierarchical_label "selC"
-		(shape output)
+		(shape input)
 		(at 30.48 102.87 180)
 		(effects
 			(font
@@ -8026,7 +8026,7 @@
 		(uuid "6eaa9a8c-77bd-45bb-8699-9f44f849b8e1")
 	)
 	(hierarchical_label "output17"
-		(shape output)
+		(shape input)
 		(at 187.96 49.53 180)
 		(effects
 			(font
@@ -8037,7 +8037,7 @@
 		(uuid "740cdcc6-0b7d-46da-b1a2-0f9a40cfa960")
 	)
 	(hierarchical_label "output11"
-		(shape output)
+		(shape input)
 		(at 109.22 82.55 180)
 		(effects
 			(font
@@ -8048,7 +8048,7 @@
 		(uuid "7cf82814-b56f-4787-8c3a-25379e7260f1")
 	)
 	(hierarchical_label "output22"
-		(shape output)
+		(shape input)
 		(at 187.96 130.81 180)
 		(effects
 			(font
@@ -8059,7 +8059,7 @@
 		(uuid "8029fe37-bbc4-491b-9965-0660847c4b80")
 	)
 	(hierarchical_label "output7"
-		(shape output)
+		(shape input)
 		(at 30.48 148.59 180)
 		(effects
 			(font
@@ -8070,7 +8070,7 @@
 		(uuid "86805dd6-ec44-48e6-bec4-d5c8f6519204")
 	)
 	(hierarchical_label "output3"
-		(shape output)
+		(shape input)
 		(at 30.48 82.55 180)
 		(effects
 			(font
@@ -8136,7 +8136,7 @@
 		(uuid "aacc2411-ae26-43a7-a520-2865a984f2f7")
 	)
 	(hierarchical_label "output4"
-		(shape output)
+		(shape input)
 		(at 30.48 97.79 180)
 		(effects
 			(font
@@ -8147,7 +8147,7 @@
 		(uuid "ad6be7d7-f439-462f-ba52-40730984d9a5")
 	)
 	(hierarchical_label "SEL0"
-		(shape output)
+		(shape input)
 		(at 22.86 170.18 180)
 		(effects
 			(font
@@ -8169,7 +8169,7 @@
 		(uuid "b5d3b4d8-586f-453e-95d0-cc315cab6be7")
 	)
 	(hierarchical_label "output0"
-		(shape output)
+		(shape input)
 		(at 30.48 31.75 180)
 		(effects
 			(font
@@ -8202,7 +8202,7 @@
 		(uuid "cc632f8b-449d-45af-9194-6c13422cf90c")
 	)
 	(hierarchical_label "output13"
-		(shape output)
+		(shape input)
 		(at 109.22 115.57 180)
 		(effects
 			(font
@@ -8213,7 +8213,7 @@
 		(uuid "ce767c5f-7621-4a93-9cbb-92402afa8e5d")
 	)
 	(hierarchical_label "selB"
-		(shape output)
+		(shape input)
 		(at 30.48 69.85 180)
 		(effects
 			(font
@@ -8224,7 +8224,7 @@
 		(uuid "d3fa4769-bd0b-483c-99b8-5dc86505bb17")
 	)
 	(hierarchical_label "selL"
-		(shape output)
+		(shape input)
 		(at 187.96 135.89 180)
 		(effects
 			(font
@@ -8235,7 +8235,7 @@
 		(uuid "d50672f5-1007-42f5-9e12-dd4ae330a30b")
 	)
 	(hierarchical_label "output12"
-		(shape output)
+		(shape input)
 		(at 109.22 97.79 180)
 		(effects
 			(font
@@ -8301,7 +8301,7 @@
 		(uuid "e85abdf7-7d5c-4d4b-9aed-0f0734a14e34")
 	)
 	(hierarchical_label "output6"
-		(shape output)
+		(shape input)
 		(at 30.48 130.81 180)
 		(effects
 			(font
@@ -8312,7 +8312,7 @@
 		(uuid "f92921ff-437e-4bff-a6dd-ccffd562a647")
 	)
 	(hierarchical_label "selD"
-		(shape output)
+		(shape input)
 		(at 30.48 135.89 180)
 		(effects
 			(font

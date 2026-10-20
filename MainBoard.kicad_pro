@@ -815,7 +815,7 @@
         "uuid": "6deb7572-40fc-4be3-9f80-b7a356c09b38"
       }
     ],
-    "used_designators": "R1-7,R13-25,C1-14,C21-22,D1-4,D6-7,#PWR113-121,#PWR142-168,U14-18",
+    "used_designators": "D7-26,D35-39,#PWR142-144,#PWR169-258,C5,C23-46,J25,R17,R25-94",
     "variants": []
   },
   "sheets": [
@@ -840,8 +840,8 @@
       "inputAnalog"
     ],
     [
-      "6ce09727-8bfd-4d95-a09e-fd2a2e10feee",
-      "inputSwitch"
+      "ccbeb782-dfe5-4cb3-8dd2-90002f25b8f1",
+      "inputSwitch1"
     ],
     [
       "484be496-9fb3-4a6c-b103-28a09f323410",
@@ -858,6 +858,90 @@
     [
       "d8a37f98-2a8b-4436-b9d3-44ea6584471e",
       "PowertrainInterface"
+    ],
+    [
+      "d9ee8316-63cc-45e5-bd3e-a1edb2ca2d6e",
+      "inputSwitch"
+    ],
+    [
+      "fb2b2e54-af3a-46da-8b57-97c853c18066",
+      "inputSwitch2"
+    ],
+    [
+      "8473c656-3b79-44ab-991e-ca30bc71c7e6",
+      "inputSwitch3"
+    ],
+    [
+      "dbcd2a55-6fe3-4e49-8700-4a67db9335ea",
+      "inputSwitch4"
+    ],
+    [
+      "ee2f57ba-5bf1-45e0-870f-efd09b03d5b0",
+      "inputSwitch5"
+    ],
+    [
+      "514ce59c-5ef6-438b-a4f2-8b91d68ed950",
+      "inputSwitch6"
+    ],
+    [
+      "927107db-c6db-4aa6-bc67-3b8f1ea473a9",
+      "inputSwitch7"
+    ],
+    [
+      "5ee1ae2a-1f12-4dfb-8445-ec50faa71255",
+      "inputSwitch8"
+    ],
+    [
+      "435f38f1-5694-4f7e-b25d-96d10968bc7a",
+      "inputSwitch9"
+    ],
+    [
+      "62b08637-a5f4-49ad-a32c-f572b116efd1",
+      "inputSwitch10"
+    ],
+    [
+      "55217c41-eea6-49b4-a3d1-c107f86cf0d3",
+      "inputSwitch11"
+    ],
+    [
+      "e1c25f7d-dbb3-4be8-99c4-736ca3de4ee7",
+      "inputSwitch12"
+    ],
+    [
+      "e86f568e-38b4-4dbb-b238-ae1fe05e5994",
+      "inputSwitch13"
+    ],
+    [
+      "b1eb0407-238d-4a2c-9640-4a8991ce4117",
+      "inputSwitch14"
+    ],
+    [
+      "4bb5f3ae-ce82-4338-998d-62be1b297bde",
+      "inputAnalog1"
+    ],
+    [
+      "bb90eeae-f6b7-4ab0-91ca-1f494e8dc0e5",
+      "inputPAS1"
+    ],
+    [
+      "0c155571-1bd8-4bec-bb4f-8e0bfac8183f",
+      "inputAnalog2"
+    ],
+    [
+      "316d4f3f-7ca7-4a40-9e18-39726f76d5ff",
+      "inputAnalog3"
+    ],
+    [
+      "97176d4a-f469-4b3e-946d-de72b475fa7f",
+      "inputPAS2"
+    ],
+    [
+      "de4c83ca-265a-403e-acdd-e77774d3be85",
+      "inputAnalog4"
+    ],
+    [
+      "8c1e6824-86fa-49c6-92ab-5b5974896eb4",
+      "inputPAS3"
     ]
   ],
   "text_variables": {},

@@ -1240,7 +1240,7 @@
 		(uuid "14671fb3-0e78-4b73-9873-025cd31ee537")
 	)
 	(hierarchical_label "MCU_SW"
-		(shape input)
+		(shape output)
 		(at 95.25 72.39 0)
 		(effects
 			(font

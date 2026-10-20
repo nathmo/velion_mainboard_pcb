@@ -8,6 +8,8 @@ _autosave-*
 *-bak
 *.history
 *.history_trim
+.history/
+.history_trim/
 
 # Lock files (created while a file is open)
 ~*.lck
