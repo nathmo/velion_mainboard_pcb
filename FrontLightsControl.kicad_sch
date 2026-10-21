@@ -303,6 +303,373 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_JLCPCB-Diode-Packages:Schottky, BAT54S_C7420333"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAT54S_C7420333"
+				(at -1.27 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310171613_hongjiacheng-BAT54S_C7420333.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "30V 1 pair in series 200mA 400mV@10mA SOT-23 Schottky Diodes ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C7420333"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Stock" "312442"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.016USD"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Minimum Qty" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Attrition Qty" "5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Class" "Preferred Component"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "hongjiacheng"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "BAT54S"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Reverse Leakage Current (Ir)" "2uA@30V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Peak Forward Surge Current" "600mA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Diode Configuration" "Dual"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Average Rectified Current (Io)" "200mA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Reverse Voltage (Vr)" "30V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Forward Voltage (Vf@If)" "0.4V@10mA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C7420333"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Schottky, BAT54S_C7420333_0_1"
+				(polyline
+					(pts
+						(xy -4.064 -1.016) (xy -4.064 -0.762) (xy -3.556 -0.762) (xy -3.556 -4.572) (xy -3.048 -4.572)
+						(xy -3.048 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 4.064) (xy -1.27 2.54) (xy -3.81 0.762) (xy -3.81 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54) (xy 1.27 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -3.302 -2.54) (xy -0.762 -4.318) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 4.064) (xy -0.508 4.318) (xy -1.016 4.318) (xy -1.016 0.508) (xy -1.524 0.508) (xy -1.524 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "K1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "K2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_JLCPCB-Diodes:Switching,1N4148W"
 			(pin_numbers
 				(hide yes)
@@ -2567,6 +2934,12 @@
 		(uuid "83767f1f-8c80-4284-83e2-3ce648c14187")
 	)
 	(junction
+		(at 35.56 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83dbaebf-4907-409e-a7ae-bd645c9cc274")
+	)
+	(junction
 		(at 201.93 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2787,6 +3160,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c34d3759-c57a-47cf-bb58-7a84249a7bc8")
+	)
+	(junction
+		(at 24.13 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c83ba22b-0cb6-4b5e-b8db-4accd70d5c23")
 	)
 	(junction
 		(at 24.13 166.37)
@@ -3037,6 +3416,16 @@
 			(type default)
 		)
 		(uuid "0251397e-c4c3-4e1e-8602-3824a3f636a2")
+	)
+	(wire
+		(pts
+			(xy 24.13 180.34) (xy 25.4 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033b56c2-5e8a-452b-9cac-c6e6b448146a")
 	)
 	(wire
 		(pts
@@ -3567,6 +3956,16 @@
 			(type default)
 		)
 		(uuid "22ec4ddc-a184-4bc9-82be-4098d794357d")
+	)
+	(wire
+		(pts
+			(xy 24.13 180.34) (xy 24.13 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2333fc07-8aa9-42ae-bfef-0d84fb6ae66d")
 	)
 	(wire
 		(pts
@@ -4190,6 +4589,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 195.58) (xy 21.59 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d6e916-c734-40d7-a31d-d0e93aa0f4fa")
+	)
+	(wire
+		(pts
 			(xy 166.37 72.39) (xy 166.37 69.85)
 		)
 		(stroke
@@ -4647,6 +5056,16 @@
 			(type default)
 		)
 		(uuid "5d31eac7-7f17-461a-b3f7-30a689906e74")
+	)
+	(wire
+		(pts
+			(xy 31.75 190.5) (xy 35.56 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e147712-c5de-4f99-88ff-025342726088")
 	)
 	(wire
 		(pts
@@ -5187,6 +5606,16 @@
 			(type default)
 		)
 		(uuid "789b599d-1888-4440-997b-a23e1c41c229")
+	)
+	(wire
+		(pts
+			(xy 26.67 195.58) (xy 31.75 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793cb314-4874-403c-99b1-00feb07f98ac")
 	)
 	(wire
 		(pts
@@ -5757,6 +6186,16 @@
 			(type default)
 		)
 		(uuid "9a932eb6-d08d-494b-b706-cfb2a1bea320")
+	)
+	(wire
+		(pts
+			(xy 17.78 194.31) (xy 17.78 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b18abc9-3498-46b4-b77d-9c3835291d7b")
 	)
 	(wire
 		(pts
@@ -6860,6 +7299,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 195.58) (xy 31.75 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8678606-5939-41b2-bccc-d4ef725eab62")
+	)
+	(wire
+		(pts
 			(xy 78.74 168.91) (xy 78.74 167.64)
 		)
 		(stroke
@@ -6947,6 +7396,16 @@
 			(type default)
 		)
 		(uuid "dcc4e074-cca3-4e1d-943b-21bd9f7a0e36")
+	)
+	(wire
+		(pts
+			(xy 26.67 195.58) (xy 26.67 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc5d3be-8c76-456b-b13d-6c39dd4e6b27")
 	)
 	(wire
 		(pts
@@ -7290,7 +7749,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 180.34) (xy 25.4 180.34)
+			(xy 22.86 180.34) (xy 24.13 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7587,6 +8046,16 @@
 			(type default)
 		)
 		(uuid "fc582b49-6559-4650-95fb-249e9b0aa814")
+	)
+	(wire
+		(pts
+			(xy 21.59 195.58) (xy 21.59 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc583b25-c336-49c4-a158-595dfcfa1b6e")
 	)
 	(wire
 		(pts
@@ -8491,7 +8960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "025863b0-368c-4e90-90c1-eeeb36a2871c")
-		(property "Reference" "R23"
+		(property "Reference" "R30"
 			(at 29.21 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8740,7 +9209,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "R23")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -8758,7 +9227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "026f117b-4eb1-47c8-8eb4-26d2b92c645d")
-		(property "Reference" "C21"
+		(property "Reference" "C56"
 			(at 251.46 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8976,7 +9445,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "C21")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -8993,7 +9462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "027d3359-23d7-4294-8400-c06a2f3f937f")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0117"
 			(at 170.18 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9053,7 +9522,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0163")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -9070,7 +9539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c8d99fb-cde6-45ed-8bde-eb5d6e1192b3")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0122"
 			(at 245.11 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9130,7 +9599,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0118")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -9147,7 +9616,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "115d5630-8396-4ee9-abf1-bb63121b3521")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0102"
 			(at 24.13 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9207,7 +9676,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0168")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -9225,7 +9694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "179716b0-8535-43a0-9e07-3106e6ad506f")
-		(property "Reference" "R18"
+		(property "Reference" "R31"
 			(at 38.1 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9475,7 +9944,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "R18")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -9492,7 +9961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "179aee02-ee84-4f23-886d-bf09fe7afa28")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0106"
 			(at 87.63 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9552,7 +10021,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0113")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -9570,7 +10039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21cbb7f2-a43d-40d9-9d99-5a02683487d0")
-		(property "Reference" "C12"
+		(property "Reference" "C52"
 			(at 172.72 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9788,7 +10257,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "C12")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -9806,7 +10275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24af50a0-2d33-4260-b446-a8342b6ac138")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0103"
 			(at 35.56 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -9866,7 +10335,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0167")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -9883,7 +10352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "273e36ae-6aa0-4ffc-a88d-ffc18b6405c5")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0127"
 			(at 248.92 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9943,7 +10412,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0166")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -9960,7 +10429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a7fa4a9-a500-4f23-8755-c9a7ce3528ef")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0105"
 			(at 87.63 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -10020,7 +10489,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0112")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -10038,7 +10507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ae7de10-f416-4f76-a485-e0f0238fd6a1")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0124"
 			(at 245.11 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10098,7 +10567,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0156")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -10116,7 +10585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e803cd6-bec9-43af-a5c8-cb9bb00a2143")
-		(property "Reference" "U17"
+		(property "Reference" "U14"
 			(at 223.52 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10256,7 +10725,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "U17")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -10273,7 +10742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30505d35-dd78-4ee9-b4c0-c5d7a05dd184")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0108"
 			(at 87.63 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10333,7 +10802,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0115")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -10350,7 +10819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33091b47-92e0-4e8b-96c2-9215236e29ca")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0109"
 			(at 91.44 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10410,7 +10879,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0154")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -10427,7 +10896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d79201f-9b40-4081-94a4-ce7e5395907a")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0107"
 			(at 87.63 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10487,7 +10956,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0114")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -10504,7 +10973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fdaa7df-d84d-4073-b6b0-be1e3e168777")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0125"
 			(at 248.92 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10564,7 +11033,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0164")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -10581,7 +11050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "401c31de-66b2-450e-9984-9253d6fcd11a")
-		(property "Reference" "R20"
+		(property "Reference" "R28"
 			(at 33.782 169.164 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10830,7 +11299,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "R20")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -10848,7 +11317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "410d33f3-bb16-4e36-97a2-247834676457")
-		(property "Reference" "C8"
+		(property "Reference" "C49"
 			(at 93.98 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11066,7 +11535,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "C8")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -11083,7 +11552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a5c9b90-7d56-4ec3-94bb-f09c546724f5")
-		(property "Reference" "R19"
+		(property "Reference" "R32"
 			(at 73.152 172.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11333,7 +11802,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "R19")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -11351,7 +11820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fba72cb-59d7-4943-b486-1eab4d9179f1")
-		(property "Reference" "C9"
+		(property "Reference" "C50"
 			(at 93.98 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11569,7 +12038,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "C9")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -11587,7 +12056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c83d56e-0afa-4a6e-8409-bf788af96dee")
-		(property "Reference" "C11"
+		(property "Reference" "C53"
 			(at 172.72 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11805,7 +12274,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "C11")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -11823,7 +12292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d84536f-a432-4bb9-bb0b-ffe4957bfce3")
-		(property "Reference" "C13"
+		(property "Reference" "C51"
 			(at 172.72 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12041,7 +12510,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "C13")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -12059,7 +12528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e84d6ce-2c0f-4a63-a4d8-cdfb6e2572de")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 144.78 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12199,7 +12668,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -12216,7 +12685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61564ccb-adc5-4c61-9fa6-61f769e4a818")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0119"
 			(at 170.18 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12276,7 +12745,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0161")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -12294,7 +12763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62422a39-4f0f-4b64-8632-06c83f29732d")
-		(property "Reference" "U12"
+		(property "Reference" "U9"
 			(at 144.78 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12434,7 +12903,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "U12")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -12452,7 +12921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d821078-c7ac-47af-a18a-41c4a6489a05")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 66.04 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12592,7 +13061,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -12609,7 +13078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7188b27a-707b-44de-83a3-f816504f3986")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0120"
 			(at 170.18 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -12669,7 +13138,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0160")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -12687,7 +13156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74bbe8fa-77bd-4878-b781-b8eb0bf603ae")
-		(property "Reference" "C14"
+		(property "Reference" "C55"
 			(at 251.46 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12905,7 +13374,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "C14")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -12923,7 +13392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "766f00db-1360-4493-837d-96365d71a8a1")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 66.04 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13063,7 +13532,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -13081,7 +13550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "786fd35c-7c92-4fe3-898b-fa5115b24b66")
-		(property "Reference" "C6"
+		(property "Reference" "C47"
 			(at 93.98 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13299,7 +13768,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "C6")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -13316,7 +13785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "883b8fe3-f05c-42f8-8f44-af3ed6b48b0e")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0111"
 			(at 91.44 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13376,7 +13845,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0158")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -13394,7 +13863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89218005-44d1-4016-8a17-6b24a9c306e4")
-		(property "Reference" "U13"
+		(property "Reference" "U10"
 			(at 144.78 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13534,7 +14003,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "U13")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -13552,7 +14021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8febd992-1600-4527-890a-2211af11f153")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 91.44 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13792,7 +14261,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13810,7 +14279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9751044f-f278-49d5-98a6-fd638de2ab04")
-		(property "Reference" "U16"
+		(property "Reference" "U13"
 			(at 223.52 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13950,7 +14419,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "U16")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -13967,7 +14436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9aa574c6-e574-43a7-9c45-31531030e145")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0113"
 			(at 166.37 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -14027,7 +14496,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0116")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -14044,7 +14513,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a24196a3-e566-4e82-98ba-e59f7c24fd08")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0110"
 			(at 91.44 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -14104,7 +14573,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0157")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -14121,7 +14590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a49cc2ce-e582-49c7-92a4-3c6c2986fa66")
-		(property "Reference" "R22"
+		(property "Reference" "R27"
 			(at 32.258 164.084 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14370,7 +14839,84 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "R22")
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 17.78 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a560fe6d-f757-4f35-97ae-f4528cb940d9")
+		(property "Reference" "#PWR0101"
+			(at 17.78 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 16.256 190.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 17.78 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ccdbd9c-667a-47b3-a2ee-245c25c5f6c3")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -14387,7 +14933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8dda8bc-3483-4c10-b975-daf5309a6c69")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0126"
 			(at 248.92 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -14447,7 +14993,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0165")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -14464,7 +15010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab7a5251-4a09-4a75-a11b-ea1a83f69dd6")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 20.828 158.242 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14713,7 +15259,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -14730,7 +15276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6c7e413-afa0-4c26-aa40-4d59a099f451")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0115"
 			(at 166.37 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -14790,7 +15336,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0120")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -14808,7 +15354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdb1b6f7-bc02-474a-8dd8-f25e5e03c370")
-		(property "Reference" "U10"
+		(property "Reference" "U12"
 			(at 223.52 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14948,7 +15494,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "U10")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -14966,7 +15512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c092d36a-db44-483f-943c-9211211701ce")
-		(property "Reference" "U11"
+		(property "Reference" "U8"
 			(at 144.78 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15106,7 +15652,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "U11")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -15124,7 +15670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4cd8e80-e3e9-422a-900d-a8b8b7570fd9")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 66.04 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15264,7 +15810,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -15282,7 +15828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5adbb36-e384-44f2-a519-96d3c6b6bdf5")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 223.52 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15422,7 +15968,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "U9")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -15439,7 +15985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5d7fe91-592e-4cb2-a9bf-fdacc05307db")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0123"
 			(at 245.11 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -15499,7 +16045,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0155")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -15516,7 +16062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5df9ab8-7578-42cc-a2f0-2f039acca477")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0114"
 			(at 166.37 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -15576,7 +16122,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0119")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -15593,7 +16139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c78bfe60-b53f-47c6-b9dc-4f0069a16052")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0116"
 			(at 166.37 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -15653,7 +16199,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0121")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -15670,7 +16216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfcbd777-6e21-4237-9123-67b266ae6bdf")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0121"
 			(at 245.11 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -15730,7 +16276,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0117")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -15748,7 +16294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1428e38-c1e7-4370-8fd9-5620f79497a2")
-		(property "Reference" "C10"
+		(property "Reference" "C54"
 			(at 172.72 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15966,7 +16512,268 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "C10")
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diode-Packages:Schottky, BAT54S_C7420333")
+		(at 24.13 186.69 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d77151e6-270d-4e97-813f-021d0d64da6c")
+		(property "Reference" "D1"
+			(at 19.05 185.674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54S_C7420333"
+			(at 24.13 197.104 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 13.97 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310171613_hongjiacheng-BAT54S_C7420333.pdf"
+			(at 24.257 188.976 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V 1 pair in series 200mA 400mV@10mA SOT-23 Schottky Diodes ROHS"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7420333"
+			(at 24.13 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "312442"
+			(at 24.13 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.016USD"
+			(at 24.13 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "5"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "BAT54S"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "2uA@30V"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Peak Forward Surge Current" "600mA"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" "Dual"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Rectified Current (Io)" "200mA"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "30V"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "0.4V@10mA"
+			(at 24.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "592b1a1d-c123-42cb-a239-7500faec3b60")
+		)
+		(pin "3"
+			(uuid "d0f835b9-5a3a-4948-87f6-33e805eb383c")
+		)
+		(pin "2"
+			(uuid "0fb9df80-d48c-42b4-b1db-0a46c3fb2464")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15984,7 +16791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db11d85c-8177-4e42-a586-e4f93c43e4db")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0104"
 			(at 83.82 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -16044,7 +16851,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0153")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -16062,7 +16869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc9e78f9-aa90-4fda-a4ff-627fc05b9f43")
-		(property "Reference" "C7"
+		(property "Reference" "C48"
 			(at 93.98 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16280,7 +17087,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "C7")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -16297,7 +17104,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df0207ae-d739-44fe-ab4b-dd8523578d2c")
-		(property "Reference" "R21"
+		(property "Reference" "R29"
 			(at 34.036 172.974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16546,7 +17353,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "R21")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -16563,7 +17370,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f346516c-af5c-47c9-a145-a14fa9306fef")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0118"
 			(at 170.18 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -16623,7 +17430,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0162")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -16640,7 +17447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f49ba954-c2c0-4f5d-93e3-66220abab9be")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0112"
 			(at 91.44 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -16700,7 +17507,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "#PWR0159")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -16718,7 +17525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb1ce579-4553-4501-9f49-ea1b3bf1ca1a")
-		(property "Reference" "C22"
+		(property "Reference" "C57"
 			(at 251.46 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16936,7 +17743,7 @@
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38/85f7cfb4-2dca-4fea-899a-8492319a0fc4"
-					(reference "C22")
+					(reference "C57")
 					(unit 1)
 				)
 			)
