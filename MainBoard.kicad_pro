@@ -760,7 +760,24 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "CAN1": [
+        "CAN1.TX",
+        "CAN1.RX"
+      ],
+      "I2C1": [
+        "I2C1.CLK",
+        "I2C1.DATA"
+      ],
+      "I2C2": [
+        "I2C2.SCK",
+        "I2C2.DATA"
+      ],
+      "USB2.0": [
+        "USB_P",
+        "USB_N"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,

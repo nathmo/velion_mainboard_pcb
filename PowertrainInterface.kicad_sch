@@ -2404,6 +2404,24 @@
 		(color 0 0 0 0)
 		(uuid "e9797515-06ba-4164-8355-7b1f0c21b42e")
 	)
+	(bus_entry
+		(at 104.14 77.47)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219df423-2617-4754-a187-7108f54541ea")
+	)
+	(bus_entry
+		(at 104.14 82.55)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3218e633-125f-462e-9768-b83629f575f5")
+	)
 	(wire
 		(pts
 			(xy 96.52 58.42) (xy 83.82 58.42)
@@ -2423,6 +2441,16 @@
 			(type default)
 		)
 		(uuid "0323c7e8-c026-4eeb-90a7-6139dc650826")
+	)
+	(bus
+		(pts
+			(xy 87.63 92.71) (xy 104.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3b02c0-dc26-43c9-9f3f-5a2aebf75a6a")
 	)
 	(wire
 		(pts
@@ -2533,6 +2561,16 @@
 			(type default)
 		)
 		(uuid "3fe6fe15-b6eb-4123-a94a-3605c81c0b9d")
+	)
+	(bus
+		(pts
+			(xy 104.14 77.47) (xy 104.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439d50e7-3be8-484c-be12-2de66b87be7c")
 	)
 	(wire
 		(pts
@@ -2946,6 +2984,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 80.01) (xy 118.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadcf147-01a8-4c39-9f2e-1bdf70a78262")
+	)
+	(wire
+		(pts
 			(xy 186.69 67.31) (xy 201.93 67.31)
 		)
 		(stroke
@@ -3004,6 +3052,46 @@
 		)
 		(uuid "f1720bf0-3d72-4ccc-a5bd-3167d457f397")
 	)
+	(wire
+		(pts
+			(xy 106.68 74.93) (xy 118.11 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabbb923-b97a-442d-a655-e8fce110061c")
+	)
+	(label "{CAN1}"
+		(at 96.52 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74384d7e-0450-4516-8187-1312c3b672ef")
+	)
+	(label "CAN1.TX"
+		(at 107.95 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e2a80db-bb55-4ba8-9d6a-c6d56191bf17")
+	)
+	(label "CAN1.RX"
+		(at 107.95 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8bf02f6-5b2e-49a8-b075-cbb55dbb2b69")
+	)
 	(label "CAN_SH"
 		(at 222.25 106.68 90)
 		(effects
@@ -3013,6 +3101,17 @@
 			(justify left bottom)
 		)
 		(uuid "b1c1c630-5fa0-41e4-9a68-543f992f64b2")
+	)
+	(hierarchical_label "{CAN1}"
+		(shape bidirectional)
+		(at 87.63 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d6cb04b-3477-4834-9caf-d8a0f1e421f5")
 	)
 	(symbol
 		(lib_id "power:+3.3V")

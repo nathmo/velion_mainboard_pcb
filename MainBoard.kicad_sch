@@ -49508,7 +49508,7 @@
 		)
 	)
 	(sheet
-		(at 59.69 237.49)
+		(at 59.69 226.06)
 		(size 52.07 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49524,7 +49524,7 @@
 		)
 		(uuid "01582b60-19d7-4657-b2bf-e1fdc2b4b2ed")
 		(property "Sheetname" "USB_PD"
-			(at 59.69 236.7784 0)
+			(at 59.69 225.3484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49535,7 +49535,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_PD.kicad_sch"
-			(at 59.69 260.9346 0)
+			(at 59.69 249.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49543,6 +49543,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_PD_ALERT" output
+			(at 111.76 240.03 0)
+			(uuid "9265f260-74d9-47b7-bdb0-36a290354a6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{USB2.0}" bidirectional
+			(at 111.76 229.87 0)
+			(uuid "69a1dc61-a8e8-4779-b38e-be9f1aa809d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_PD_RST" input
+			(at 111.76 242.57 0)
+			(uuid "df9d43e7-49dd-47ef-8fa0-5278ae8ff199")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{I2C2}" bidirectional
+			(at 111.76 234.95 0)
+			(uuid "bebbe79e-9073-46ec-a385-014c47ccbced")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -49831,7 +49871,7 @@
 	)
 	(sheet
 		(at 58.42 143.51)
-		(size 53.34 85.09)
+		(size 53.34 59.69)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -49857,7 +49897,7 @@
 			)
 		)
 		(property "Sheetfile" "PowertrainInterface.kicad_sch"
-			(at 58.42 229.1846 0)
+			(at 58.42 203.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49865,6 +49905,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{CAN1}" bidirectional
+			(at 111.76 148.59 0)
+			(uuid "6f71779a-bb3e-4f23-9458-7c97a4ba9d4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
