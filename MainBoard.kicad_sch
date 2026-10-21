@@ -11305,6 +11305,52 @@
 		)
 	)
 	(sheet
+		(at 88.9 328.295)
+		(size 51.435 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "426532ca-fbfd-482b-8f67-9d51c3c379d1")
+		(property "Sheetname" "Buzzer"
+			(at 88.9 327.5834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buzzer.kicad_sch"
+			(at 88.9 349.1996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MainBoard"
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 189.23 337.82)
 		(size 39.37 3.81)
 		(exclude_from_sim no)
