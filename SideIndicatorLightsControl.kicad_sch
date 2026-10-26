@@ -4025,7 +4025,47 @@
 		)
 		(uuid "ff8bca09-5703-4098-ac9e-441f830d0e85")
 	)
-	(hierarchical_label "SEL1"
+	(label "SideMarkLampLeftOUT"
+		(at 193.04 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32d2b153-c013-4391-8be9-fbaf556d7bf8")
+	)
+	(label "SideMarkLampRightOUT"
+		(at 193.04 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "589c308f-351c-4a36-936e-ee31d4ff7f20")
+	)
+	(label "SideDirLampRightOUT"
+		(at 193.04 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5d88f2e-b5cf-484c-852d-4d51a3bcb817")
+	)
+	(label "SideDirLampLeftOUT"
+		(at 193.04 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df94014b-618c-4233-b0e8-dbf52ebfdfba")
+	)
+	(hierarchical_label "SideSEL1"
 		(shape input)
 		(at 66.04 119.38 180)
 		(effects
@@ -4036,7 +4076,7 @@
 		)
 		(uuid "1182e27e-a864-48b3-bf53-f9d3a968c1cf")
 	)
-	(hierarchical_label "SEL0"
+	(hierarchical_label "SideSEL0"
 		(shape input)
 		(at 66.04 115.57 180)
 		(effects
@@ -4047,7 +4087,7 @@
 		)
 		(uuid "19056e0a-113d-4d74-87ec-a8edea63ca67")
 	)
-	(hierarchical_label "output8"
+	(hierarchical_label "SideMarkLampR"
 		(shape input)
 		(at 92.71 31.75 180)
 		(effects
@@ -4058,7 +4098,7 @@
 		)
 		(uuid "4288e600-bb17-404e-97f2-9927da933396")
 	)
-	(hierarchical_label "Sense"
+	(hierarchical_label "SideSense"
 		(shape output)
 		(at 66.04 125.73 180)
 		(effects
@@ -4069,7 +4109,7 @@
 		)
 		(uuid "4dedc642-fbb5-469a-a8cc-0e34235e45fe")
 	)
-	(hierarchical_label "output9"
+	(hierarchical_label "SideDirLampR"
 		(shape input)
 		(at 92.71 49.53 180)
 		(effects
@@ -4102,7 +4142,7 @@
 		)
 		(uuid "76c3f4c9-5d4e-4b96-8689-58921b1e0ae8")
 	)
-	(hierarchical_label "output11"
+	(hierarchical_label "SideDirLampL"
 		(shape input)
 		(at 92.71 82.55 180)
 		(effects
@@ -4113,7 +4153,7 @@
 		)
 		(uuid "8f6916ff-455f-49dd-a25b-1415410c8e3c")
 	)
-	(hierarchical_label "output10"
+	(hierarchical_label "SideMarkLampL"
 		(shape input)
 		(at 92.71 64.77 180)
 		(effects
@@ -7146,7 +7186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:POWERSSO-16_L4.9-W3.9-P0.50-LS6.0-BL-EP"
+		(property "Footprint" "Package_SO:PowerSSO-16-1EP_3.9x4.9mm_P0.5mm_EP2.5x3.61mm"
 			(at 128.27 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7304,7 +7344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:POWERSSO-16_L4.9-W3.9-P0.50-LS6.0-BL-EP"
+		(property "Footprint" "Package_SO:PowerSSO-16-1EP_3.9x4.9mm_P0.5mm_EP2.5x3.61mm"
 			(at 128.27 90.17 0)
 			(hide yes)
 			(show_name no)

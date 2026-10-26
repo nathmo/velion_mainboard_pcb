@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -827,7 +830,7 @@
         "uuid": "6deb7572-40fc-4be3-9f80-b7a356c09b38"
       }
     ],
-    "used_designators": "#PWR112-181,#PWR234-237,BZ1-3,C47-58,C60-63,C94-95,D1-19,D31-32,J5-6,J8-11,J19-20,Q7,R26-58,R113-115,R126,RV1-2,SW1-23,U3,U5-15",
+    "used_designators": "#PWR112-200,#PWR213-265,BZ1-3,C47-58,C60-65,C87-105,C156,D1-21,D23-26,D31-45,J5-6,J8-14,J16-23,L16,Q7,R26-64,R92-110,R112-115,R126-143,R152-163,RV1-2,SW1-23,U3,U5-15",
     "variants": []
   },
   "sheets": [
@@ -870,6 +873,14 @@
     [
       "a78dfa28-6b88-430b-b14f-164936fc43c3",
       "SideIndicatorLightsControl"
+    ],
+    [
+      "9497394b-cb4f-459a-9f58-787826446057",
+      "HumanInterfaceCircuitsII"
+    ],
+    [
+      "2facf7b5-3934-45fa-8bf3-6740440d45ef",
+      "IMU"
     ]
   ],
   "text_variables": {},

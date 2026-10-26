@@ -42583,6 +42583,171 @@
 		)
 		(uuid "e80555fa-d501-40f6-9131-cc7ed97d9ea1")
 	)
+	(hierarchical_label "selI"
+		(shape output)
+		(at -68.58 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0191caa9-a18e-4e81-a3fd-c7b793a673c3")
+	)
+	(hierarchical_label "SideSEL1"
+		(shape output)
+		(at -68.58 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07f568d6-0b80-42d4-a4c2-95bbcfaf0ced")
+	)
+	(hierarchical_label "TORQUE_AN"
+		(shape input)
+		(at -115.57 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08351c59-87f1-45bf-9d1a-1c48c59eb0fe")
+	)
+	(hierarchical_label "CargoCompLamp"
+		(shape output)
+		(at -115.57 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08c65d23-b104-4554-8af1-7a710608a9ad")
+	)
+	(hierarchical_label "ReversingLamp"
+		(shape output)
+		(at -68.58 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cd5cce4-3644-4b50-98de-96f454d4f923")
+	)
+	(hierarchical_label "RearDirLampR"
+		(shape output)
+		(at -115.57 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f7af714-b835-4b54-9199-a8466110d79c")
+	)
+	(hierarchical_label "SideSense"
+		(shape output)
+		(at -68.58 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10e0edd5-bccd-45f2-baec-662b75bf166f")
+	)
+	(hierarchical_label "DaytimeLamp"
+		(shape output)
+		(at -68.58 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16811eb9-2e47-4a88-a1c6-aaea9021061b")
+	)
+	(hierarchical_label "Reserved1"
+		(shape output)
+		(at -68.58 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22c6dec2-d910-41b4-af1f-58a590a91ce0")
+	)
+	(hierarchical_label "FrontSense"
+		(shape input)
+		(at -68.58 196.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "290977b7-0562-480c-8340-b045743d8ed9")
+	)
+	(hierarchical_label "AUX_AN"
+		(shape input)
+		(at -68.58 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e742bf1-b109-4a30-a370-33a67049abee")
+	)
+	(hierarchical_label "selB"
+		(shape output)
+		(at -68.58 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "338f6ebb-618e-4dd0-873a-4cff2c546edb")
+	)
+	(hierarchical_label "selG"
+		(shape output)
+		(at -115.57 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35353aff-9aa4-4a22-9ce2-23893ed1789e")
+	)
+	(hierarchical_label "RearSEL1"
+		(shape output)
+		(at -115.57 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "383b2506-f17a-4b3e-8525-2daf54f6f927")
+	)
+	(hierarchical_label "StopLamp"
+		(shape output)
+		(at -115.57 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cfbf60c-4d87-4634-8336-4856e4c3117f")
+	)
 	(hierarchical_label "{I2C2}"
 		(shape bidirectional)
 		(at -31.75 73.66 0)
@@ -42594,6 +42759,270 @@
 		)
 		(uuid "41b80913-ef82-43e1-b450-e0ff4e6db3cd")
 	)
+	(hierarchical_label "AUX_PAS_B"
+		(shape input)
+		(at -68.58 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "460a2521-d7af-4b82-89e9-f9369f52f0cf")
+	)
+	(hierarchical_label "SideSEL0"
+		(shape output)
+		(at -68.58 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "496e5c9f-2014-495d-9bce-f69aef582162")
+	)
+	(hierarchical_label "BreakLeft_SW"
+		(shape input)
+		(at -68.58 -5.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c2c6e9f-c5ac-4acf-88e8-990008fe1ab5")
+	)
+	(hierarchical_label "RearPosLamp"
+		(shape output)
+		(at -68.58 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59bd4817-6f10-4411-bf78-51a9684b32ee")
+	)
+	(hierarchical_label "DrivingBeam"
+		(shape output)
+		(at -68.58 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59ed98cb-fc2c-4bfd-8bfa-5b1a6d4e2388")
+	)
+	(hierarchical_label "selA"
+		(shape output)
+		(at -68.58 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d5a9071-eecb-4c39-8c07-ac5a18a867d0")
+	)
+	(hierarchical_label "AUX_PAS_A"
+		(shape input)
+		(at -68.58 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e151be7-b268-4d84-a9d1-7106ede763e0")
+	)
+	(hierarchical_label "REGEN_AN"
+		(shape input)
+		(at -68.58 7.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60185020-2848-49f9-ae5f-61dacb1ed826")
+	)
+	(hierarchical_label "RearSEL0"
+		(shape output)
+		(at -115.57 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "623519c4-1f2a-4029-9512-bf0c2b89736c")
+	)
+	(hierarchical_label "PAS_B"
+		(shape input)
+		(at -68.58 0 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6549b31d-38a0-431b-b739-1004c086d2dc")
+	)
+	(hierarchical_label "selK"
+		(shape output)
+		(at -68.58 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "662369a9-21d6-40f2-abc3-6838f44f7f2d")
+	)
+	(hierarchical_label "FrontDirLampR"
+		(shape output)
+		(at -68.58 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f723a59-5f08-4aaf-9388-8ed64d7c8133")
+	)
+	(hierarchical_label "FrontPosLamp"
+		(shape output)
+		(at -68.58 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7177efbc-1b74-4445-bd97-c7aa69436e37")
+	)
+	(hierarchical_label "~{FaultRST}"
+		(shape output)
+		(at -68.58 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73971a37-ddda-47c8-a448-24cc7b99342e")
+	)
+	(hierarchical_label "selH"
+		(shape output)
+		(at -115.57 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "765a345a-04bd-453f-8d53-07a08c0de449")
+	)
+	(hierarchical_label "FrontOutSEL0"
+		(shape output)
+		(at -68.58 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77441d92-a5b3-403f-a28e-40677cf921dd")
+	)
+	(hierarchical_label "AudibleWarn"
+		(shape output)
+		(at -68.58 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79c38bad-bd32-4219-8a5e-5c9d8c2c387a")
+	)
+	(hierarchical_label "SideDirLampL"
+		(shape output)
+		(at -68.58 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81ff856a-0351-42d9-a436-a4dc84eb9858")
+	)
+	(hierarchical_label "TORQUE_PAS_B"
+		(shape input)
+		(at -115.57 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81ffe116-d8f1-48a5-accd-dfd4d45c11ce")
+	)
+	(hierarchical_label "DrivingBeamLamp"
+		(shape output)
+		(at -68.58 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8693b43a-f37e-4e1c-9de7-166e87a0f7eb")
+	)
+	(hierarchical_label "BreakRight_SW"
+		(shape input)
+		(at -68.58 -7.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b563f45-12eb-48be-a0c2-867e0e78123a")
+	)
+	(hierarchical_label "selL"
+		(shape output)
+		(at -68.58 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c57ff52-3312-4186-8760-5a226c861744")
+	)
+	(hierarchical_label "selF"
+		(shape output)
+		(at -68.58 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a887bda-36ae-4ba6-8451-c613d8dc797f")
+	)
+	(hierarchical_label "FrontDirLampL"
+		(shape output)
+		(at -68.58 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b18a81c-1a56-4e4b-894b-ff1c1544fbc3")
+	)
 	(hierarchical_label "USB_PD_ALERT"
 		(shape output)
 		(at -38.1 78.74 0)
@@ -42604,6 +43033,204 @@
 			(justify left)
 		)
 		(uuid "9bde026c-9d73-4aa2-b8fd-09b83357b075")
+	)
+	(hierarchical_label "TORQUE_PAS_A"
+		(shape input)
+		(at -115.57 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ec3ce82-a03c-4550-bd72-a60293fb71ec")
+	)
+	(hierarchical_label "Seat_SW"
+		(shape input)
+		(at -68.58 -10.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fe36706-ef3e-4c48-8e7b-b3569ccec197")
+	)
+	(hierarchical_label "SideMarkLampL"
+		(shape output)
+		(at -68.58 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0cbb7ef-e743-4c4c-aada-ad541d3d2584")
+	)
+	(hierarchical_label "selD"
+		(shape output)
+		(at -68.58 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4019d0c-a693-4b93-b61d-b5a3792e52d9")
+	)
+	(hierarchical_label "RearFogLamp"
+		(shape output)
+		(at -68.58 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa862004-a752-4e7d-bf12-132fb758a140")
+	)
+	(hierarchical_label "selC"
+		(shape output)
+		(at -68.58 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aef0c9eb-4322-4e98-ae15-dc0543031394")
+	)
+	(hierarchical_label "selE"
+		(shape output)
+		(at -68.58 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b038fdfe-e347-49ad-9f31-7bf4d10ff61c")
+	)
+	(hierarchical_label "PAS_A"
+		(shape input)
+		(at -68.58 -2.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7b0d9e9-c69b-4969-95c2-a815d9f9509f")
+	)
+	(hierarchical_label "FrontOutSEL1"
+		(shape output)
+		(at -68.58 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf5e7436-6c65-491d-977e-ce6737b00c07")
+	)
+	(hierarchical_label "SideDirLampR"
+		(shape output)
+		(at -68.58 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c30095cc-6448-488d-8750-ac22ba0b531a")
+	)
+	(hierarchical_label "DirIndicatorR"
+		(shape output)
+		(at -68.58 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4faf7b0-3289-466f-9518-41602327da74")
+	)
+	(hierarchical_label "selJ"
+		(shape output)
+		(at -68.58 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c909cddf-2a93-4868-a6f5-137dab741b73")
+	)
+	(hierarchical_label "Reserved3"
+		(shape output)
+		(at -68.58 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc4ca3d5-52a9-4b74-a2b0-5d08685cbe0f")
+	)
+	(hierarchical_label "ACCELERATOR_AN"
+		(shape input)
+		(at -68.58 5.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d516ade5-f237-4949-9080-10dd06d3b16b")
+	)
+	(hierarchical_label "RearDirLampL"
+		(shape output)
+		(at -115.57 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d829bd02-0d7e-4206-b0c3-518bb9081af6")
+	)
+	(hierarchical_label "DirIndicatorL"
+		(shape output)
+		(at -68.58 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d83208d3-3bd5-4be0-8b3e-7c4ab1720133")
+	)
+	(hierarchical_label "SideMarkLampR"
+		(shape output)
+		(at -68.58 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da50e0f7-a955-4f6d-ae67-3bb42a71d758")
+	)
+	(hierarchical_label "Reserved2"
+		(shape output)
+		(at -68.58 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcf7e46c-6302-4242-89cf-e699c76de0ba")
 	)
 	(hierarchical_label "USB_PD_RST"
 		(shape input)
@@ -42637,6 +43264,39 @@
 			(justify left)
 		)
 		(uuid "e6d31201-a291-4cbf-977e-3df700685621")
+	)
+	(hierarchical_label "Trunk_SW"
+		(shape input)
+		(at -68.58 -12.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0ce1cc2-8ac3-4109-a486-9660d356aba3")
+	)
+	(hierarchical_label "PassingBeamLamp"
+		(shape output)
+		(at -68.58 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1906d86-4042-4886-a8d6-8623ec6ec52d")
+	)
+	(hierarchical_label "RearSense"
+		(shape output)
+		(at -115.57 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f63cbdd8-4b47-4d92-a93f-a40d8e190c5a")
 	)
 	(symbol
 		(lib_id "power:GND")

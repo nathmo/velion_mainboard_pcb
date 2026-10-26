@@ -4915,7 +4915,7 @@
 	)
 	(text "torque"
 		(exclude_from_sim no)
-		(at 136.144 128.524 0)
+		(at 123.444 150.622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4925,7 +4925,7 @@
 	)
 	(text "aux"
 		(exclude_from_sim no)
-		(at 255.778 129.032 0)
+		(at 245.872 151.892 0)
 		(effects
 			(font
 				(size 1.27 1.27)
