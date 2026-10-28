@@ -42660,6 +42660,17 @@
 		)
 		(uuid "10e0edd5-bccd-45f2-baec-662b75bf166f")
 	)
+	(hierarchical_label "VehicleStartSW"
+		(shape input)
+		(at -25.4 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12b62cdf-8790-4a55-bd84-15ecb3482966")
+	)
 	(hierarchical_label "DaytimeLamp"
 		(shape output)
 		(at -68.58 172.72 180)
@@ -42670,6 +42681,17 @@
 			(justify right)
 		)
 		(uuid "16811eb9-2e47-4a88-a1c6-aaea9021061b")
+	)
+	(hierarchical_label "SpeedLimSW"
+		(shape input)
+		(at -26.67 11.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f22f4b1-4232-4ff7-8131-8142d8423d4e")
 	)
 	(hierarchical_label "Reserved1"
 		(shape output)
@@ -42692,6 +42714,39 @@
 			(justify right)
 		)
 		(uuid "290977b7-0562-480c-8340-b045743d8ed9")
+	)
+	(hierarchical_label "ForwardSW"
+		(shape input)
+		(at -25.4 16.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29d0635a-c1f5-4c64-b278-444ac56f073a")
+	)
+	(hierarchical_label "DirIndSW_L"
+		(shape input)
+		(at -26.67 -12.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a61f3cd-e833-42cf-a114-344a3190ad90")
+	)
+	(hierarchical_label "ReverseSW"
+		(shape input)
+		(at -26.67 13.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d144022-736f-4aa5-9f7d-8114245e2b33")
 	)
 	(hierarchical_label "AUX_AN"
 		(shape input)
@@ -42736,6 +42791,17 @@
 			(justify right)
 		)
 		(uuid "383b2506-f17a-4b3e-8525-2daf54f6f927")
+	)
+	(hierarchical_label "DirIndSW_R"
+		(shape input)
+		(at -26.67 -10.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cd009d3-e64f-44fb-8494-b8605724dd90")
 	)
 	(hierarchical_label "StopLamp"
 		(shape output)
@@ -42791,6 +42857,28 @@
 			(justify right)
 		)
 		(uuid "4c2c6e9f-c5ac-4acf-88e8-990008fe1ab5")
+	)
+	(hierarchical_label "Assist-SW"
+		(shape input)
+		(at -25.4 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c6fac2a-e713-45fb-81c5-9f46bf3f10d7")
+	)
+	(hierarchical_label "Assist+SW"
+		(shape input)
+		(at -25.4 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cab723f-e4be-4f71-8ac0-992cf79255b9")
 	)
 	(hierarchical_label "RearPosLamp"
 		(shape output)
@@ -43000,6 +43088,17 @@
 			(justify right)
 		)
 		(uuid "8c57ff52-3312-4186-8760-5a226c861744")
+	)
+	(hierarchical_label "AcousticWarnSW"
+		(shape input)
+		(at -26.67 -7.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94649082-d98f-46d9-a7fa-beab719e75ea")
 	)
 	(hierarchical_label "selF"
 		(shape output)
@@ -43265,6 +43364,17 @@
 		)
 		(uuid "e6d31201-a291-4cbf-977e-3df700685621")
 	)
+	(hierarchical_label "MappingSW"
+		(shape input)
+		(at -26.67 8.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eed94ff4-7527-489f-a839-7fc3416115f4")
+	)
 	(hierarchical_label "Trunk_SW"
 		(shape input)
 		(at -68.58 -12.7 180)
@@ -43297,6 +43407,17 @@
 			(justify right)
 		)
 		(uuid "f63cbdd8-4b47-4d92-a93f-a40d8e190c5a")
+	)
+	(hierarchical_label "LightChangeSW"
+		(shape input)
+		(at -26.67 -5.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb99e811-c0c8-4b4a-ae03-a83f8e2b287f")
 	)
 	(symbol
 		(lib_id "power:GND")

@@ -2465,6 +2465,17 @@
 		)
 		(uuid "8f2d99a2-4fac-4928-a15e-ed9ca52de01a")
 	)
+	(text "Mapping button\nSpeed limiter start/stop\nReverse\nFoward (the two arrow)\nAssist +\nAssist -\nVehicule start"
+		(exclude_from_sim no)
+		(at 253.492 147.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95ff2a3a-2867-460d-97be-02fb8b84fffd")
+	)
 	(text "Rth = R3//(R2+R1) = 7.7 k\nC = 1 / (2*pi × 50Hz × Rth) = 470nF"
 		(exclude_from_sim no)
 		(at 144.272 190.5 0)
@@ -2474,6 +2485,17 @@
 			)
 		)
 		(uuid "d90cdb35-f276-4829-bdbf-b9968eb1d5dc")
+	)
+	(text "Left direction indicator\nRight direction indicator\nAcoustic warning (if I recall)\nLight change (toggle between driving and passing lights)"
+		(exclude_from_sim no)
+		(at 288.29 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7798673-5184-408c-b03b-0d3a8beff00c")
 	)
 	(junction
 		(at 214.63 64.77)
@@ -4749,7 +4771,117 @@
 		)
 		(uuid "ffd791e3-721c-4526-9aad-325941204ce3")
 	)
-	(hierarchical_label "MCU_SW"
+	(label "SpeedLimSW_IN"
+		(at 218.44 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14149e0f-8bc1-45c5-8130-720ae22ecb5f")
+	)
+	(label "LightChangeSW_IN"
+		(at 229.87 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18252756-8f88-40eb-b017-6066f778b929")
+	)
+	(label "MappingSW_IN"
+		(at 218.44 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "285626de-7c6d-4337-8835-15bcfedecef0")
+	)
+	(label "VehicleStartSW_IN"
+		(at 214.63 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c194386-94cd-4678-8157-60f5eb8e5d6b")
+	)
+	(label "ForwardSW_IN"
+		(at 214.63 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66e15cd3-3b35-4297-9bdc-43e4ffca103b")
+	)
+	(label "DirIndSW_R_IN"
+		(at 229.87 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97ff288c-5711-4a9b-9797-11b6c7c9f3c0")
+	)
+	(label "Assist+SW_IN"
+		(at 214.63 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dff5186-6b25-4a51-9003-0b383ddd59ff")
+	)
+	(label "Assist-SW_IN"
+		(at 214.63 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e4b941f-02b2-42a4-9b86-3fa01208ba15")
+	)
+	(label "DirIndSW_L_IN"
+		(at 233.68 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "add05a20-f55c-47f4-a7c5-9d1af2590f8e")
+	)
+	(label "ReverseSW_IN"
+		(at 218.44 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9788462-4a93-4ef9-831f-5e611c79266b")
+	)
+	(label "AcousticWarnSW_IN"
+		(at 229.87 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e119af3d-aa37-4be7-a505-764080e68926")
+	)
+	(hierarchical_label "ForwardSW"
 		(shape output)
 		(at 31.75 137.16 180)
 		(effects
@@ -4760,7 +4892,7 @@
 		)
 		(uuid "0079bbe8-0943-43be-8b3b-f2d7b5e5a300")
 	)
-	(hierarchical_label "MCU_SW"
+	(hierarchical_label "SpeedLimSW"
 		(shape output)
 		(at 96.52 104.14 180)
 		(effects
@@ -4771,7 +4903,7 @@
 		)
 		(uuid "091c93ac-3ff7-4cab-ab81-c6bc93822896")
 	)
-	(hierarchical_label "MCU_SW"
+	(hierarchical_label "DirIndSW_L"
 		(shape output)
 		(at 31.75 34.29 180)
 		(effects
@@ -4782,7 +4914,7 @@
 		)
 		(uuid "24a8b9c2-a3be-419c-a258-4c38c729f4f4")
 	)
-	(hierarchical_label "MCU_SW"
+	(hierarchical_label "DirIndSW_R"
 		(shape output)
 		(at 31.75 64.77 180)
 		(effects
@@ -4793,7 +4925,7 @@
 		)
 		(uuid "256ee30c-32bb-47fb-8f4f-c4f572c95ca3")
 	)
-	(hierarchical_label "MCU_SW"
+	(hierarchical_label "LightChangeSW"
 		(shape output)
 		(at 173.99 64.77 180)
 		(effects
@@ -4804,7 +4936,7 @@
 		)
 		(uuid "384605b7-5ca5-4951-90ad-3f96ef9cae58")
 	)
-	(hierarchical_label "MCU_SW"
+	(hierarchical_label "VehicleStartSW"
 		(shape output)
 		(at 30.48 173.99 180)
 		(effects
@@ -4815,7 +4947,7 @@
 		)
 		(uuid "4af1106d-6c15-4e8c-ae8d-11f205f917ad")
 	)
-	(hierarchical_label "MCU_SW"
+	(hierarchical_label "ReverseSW"
 		(shape output)
 		(at 167.64 104.14 180)
 		(effects
@@ -4826,7 +4958,7 @@
 		)
 		(uuid "95563cec-2e96-4177-acfc-937fbc996a26")
 	)
-	(hierarchical_label "MCU_SW"
+	(hierarchical_label "Assist+SW"
 		(shape output)
 		(at 96.52 137.16 180)
 		(effects
@@ -4837,7 +4969,7 @@
 		)
 		(uuid "9d66053d-5ff8-47db-9a7a-438946ead669")
 	)
-	(hierarchical_label "MCU_SW"
+	(hierarchical_label "MappingSW"
 		(shape output)
 		(at 31.75 104.14 180)
 		(effects
@@ -4848,7 +4980,7 @@
 		)
 		(uuid "a4f37f76-b1a5-4782-88b8-9adde1b5f46a")
 	)
-	(hierarchical_label "MCU_SW"
+	(hierarchical_label "Assist-SW"
 		(shape output)
 		(at 167.64 137.16 180)
 		(effects
@@ -4859,7 +4991,7 @@
 		)
 		(uuid "b5937239-99d2-4252-8ca9-40af1651bd30")
 	)
-	(hierarchical_label "MCU_SW"
+	(hierarchical_label "AcousticWarnSW"
 		(shape output)
 		(at 102.87 64.77 180)
 		(effects

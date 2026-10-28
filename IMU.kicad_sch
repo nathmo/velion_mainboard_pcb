@@ -5,4 +5,35 @@
 	(uuid "9ee7ee03-9150-4705-b611-7e904ffaad4a")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 44.45 54.61) (xy 71.12 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40880314-1c64-4ba7-8d1a-7ad7f78a7604")
+	)
+	(bus
+		(pts
+			(xy 71.12 54.61) (xy 71.12 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957802ab-d228-4d94-bcf6-f1c23e173caa")
+	)
+	(hierarchical_label "{I2C1}"
+		(shape input)
+		(at 44.45 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8de71ea6-721b-4588-bde7-32e4c9a541a5")
+	)
 )
