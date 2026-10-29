@@ -986,7 +986,7 @@
 	)
 	(text "Silixcon key IO"
 		(exclude_from_sim no)
-		(at 67.31 153.67 0)
+		(at 72.644 158.242 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1191,10 +1191,10 @@
 	)
 	(text "STM32H723"
 		(exclude_from_sim no)
-		(at 180.594 48.26 0)
+		(at 195.834 141.986 90)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 5 5)
 			)
 		)
 		(uuid "3c6873f2-650b-4ab4-ac47-4d0ecc7f94fe")
@@ -1365,7 +1365,7 @@
 	)
 	(text "BMS CAN"
 		(exclude_from_sim no)
-		(at 69.088 150.622 0)
+		(at 69.596 155.448 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1530,7 +1530,7 @@
 	)
 	(text "Silixcon CAN"
 		(exclude_from_sim no)
-		(at 69.088 147.828 0)
+		(at 71.374 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1578,17 +1578,6 @@
 			)
 		)
 		(uuid "d3f2767d-b7a6-4cf4-a427-c0fbd0c5acc0")
-	)
-	(text "7 Output Digital Rear\n7 analog input Rear\n6/7 Output Digital Front\n6/7 analog input Front\n5 analog IN HMI\n20 digital input\n4 digital output"
-		(exclude_from_sim no)
-		(at 206.502 130.048 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d5ff7fd5-3894-4c68-bd98-dcc5e805bd91")
 	)
 	(text "12V"
 		(exclude_from_sim no)
@@ -2873,6 +2862,16 @@
 			(type default)
 		)
 		(uuid "7520b388-6837-4e10-b6df-02f6b9a0aa30")
+	)
+	(wire
+		(pts
+			(xy 114.3 121.92) (xy 162.56 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ed6cac-2a4c-46dc-b8c8-5ca3017643af")
 	)
 	(polyline
 		(pts
@@ -50673,6 +50672,16 @@
 				(justify right)
 			)
 		)
+		(pin "~{INT_ACC}" output
+			(at 114.3 121.92 0)
+			(uuid "50b1ad77-1c1c-4c21-beaa-09e236570326")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38"
@@ -51477,6 +51486,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "{I2C1}" input
+			(at 162.56 119.38 180)
+			(uuid "bd7d984c-14ab-4371-91f3-0206c746ba6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{INT_ACC}" input
+			(at 162.56 121.92 180)
+			(uuid "9cb492f7-461b-435d-a7f4-26e5b2936bac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

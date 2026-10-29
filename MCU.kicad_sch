@@ -40304,12 +40304,6 @@
 		(uuid "9e5d5f43-2a8e-401c-92c5-7e1f93503e93")
 	)
 	(junction
-		(at 223.52 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9faaf637-8590-40f9-981f-72126ff67808")
-	)
-	(junction
 		(at 224.79 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -41325,7 +41319,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 93.98) (xy 223.52 93.98)
+			(xy 215.9 93.98) (xy 219.71 93.98)
 		)
 		(stroke
 			(width 0)
@@ -41525,7 +41519,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 86.36) (xy 223.52 93.98)
+			(xy 223.52 86.36) (xy 223.52 96.52)
 		)
 		(stroke
 			(width 0)
@@ -41812,16 +41806,6 @@
 			(type default)
 		)
 		(uuid "b0003af5-472d-409e-97b1-056815001039")
-	)
-	(wire
-		(pts
-			(xy 223.52 93.98) (xy 223.52 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b06cac6c-f5ee-4652-b1ea-356224fa7110")
 	)
 	(wire
 		(pts
@@ -42594,6 +42578,17 @@
 		)
 		(uuid "0191caa9-a18e-4e81-a3fd-c7b793a673c3")
 	)
+	(hierarchical_label "{I2C1}"
+		(shape input)
+		(at -27.94 -39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06311da3-7288-408d-92e6-6e5640852a45")
+	)
 	(hierarchical_label "SideSEL1"
 		(shape output)
 		(at -68.58 133.35 180)
@@ -43231,6 +43226,17 @@
 			(justify right)
 		)
 		(uuid "bf5e7436-6c65-491d-977e-ce6737b00c07")
+	)
+	(hierarchical_label "~{INT_ACC}"
+		(shape input)
+		(at -27.94 -35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2549700-5f7d-498f-a463-8334a7adf5b4")
 	)
 	(hierarchical_label "SideDirLampR"
 		(shape output)
