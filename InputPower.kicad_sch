@@ -5,7 +5,7 @@
 	(uuid "7e21453f-4cdb-4c23-bc03-1708cb9c7e98")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "VELION_VCU_Library:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -160,7 +160,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
+		(symbol "VELION_VCU_Library:L"
 			(pin_numbers
 				(hide yes)
 			)
@@ -338,7 +338,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Ferrite"
+		(symbol "VELION_VCU_Library:L_Ferrite"
 			(pin_numbers
 				(hide yes)
 			)
@@ -660,7 +660,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "VELION_VCU_Library:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -800,7 +800,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "E-M-IntegratedCircuits:RT8293BHZSP"
+		(symbol "VELION_VCU_Library:RT8293BHZSP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1519,8 +1519,12 @@
 		)
 		(symbol "power:GND"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1581,7 +1585,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1610,8 +1614,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3021,7 +3024,7 @@
 		(uuid "9c77f8e4-3dae-4de5-85a4-3a880158500b")
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 176.53 153.67 180)
 		(unit 1)
 		(body_style 1)
@@ -3238,7 +3241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 138.43 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -3457,7 +3460,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite")
+		(lib_id "VELION_VCU_Library:L_Ferrite")
 		(at 148.59 132.08 180)
 		(unit 1)
 		(body_style 1)
@@ -3597,7 +3600,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 232.41 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -3738,7 +3741,7 @@
 		)
 	)
 	(symbol
-		(lib_id "E-M-IntegratedCircuits:RT8293BHZSP")
+		(lib_id "VELION_VCU_Library:RT8293BHZSP")
 		(at 170.18 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -3902,7 +3905,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "VELION_VCU_Library:R")
 		(at 241.3 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -4030,7 +4033,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "VELION_VCU_Library:L")
 		(at 226.06 125.73 90)
 		(unit 1)
 		(body_style 1)
@@ -4421,7 +4424,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "VELION_VCU_Library:R")
 		(at 241.3 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -4549,7 +4552,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 214.63 153.67 270)
 		(unit 1)
 		(body_style 1)
@@ -4690,7 +4693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 207.01 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -4913,7 +4916,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 250.19 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -5138,7 +5141,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 270.51 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -5279,7 +5282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "VELION_VCU_Library:L")
 		(at 226.06 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -5502,7 +5505,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 165.1 106.68 180)
 		(unit 1)
 		(body_style 1)
@@ -5641,7 +5644,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 203.2 100.33 270)
 		(unit 1)
 		(body_style 1)
@@ -6034,7 +6037,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "VELION_VCU_Library:R")
 		(at 241.3 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -6162,7 +6165,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 148.59 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -6303,7 +6306,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 210.82 107.95 270)
 		(unit 1)
 		(body_style 1)
@@ -6444,7 +6447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "VELION_VCU_Library:R")
 		(at 222.25 146.05 90)
 		(unit 1)
 		(body_style 1)
@@ -6572,7 +6575,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 260.35 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -6881,7 +6884,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "VELION_VCU_Library:R")
 		(at 241.3 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -7010,7 +7013,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "VELION_VCU_Library:R")
 		(at 171.45 129.54 0)
 		(unit 1)
 		(body_style 1)
@@ -7468,7 +7471,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 260.35 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -7609,7 +7612,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 250.19 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -7918,7 +7921,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "VELION_VCU_Library:R")
 		(at 162.56 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -8124,7 +8127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 210.82 146.05 270)
 		(unit 1)
 		(body_style 1)
@@ -8265,7 +8268,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite")
+		(lib_id "VELION_VCU_Library:L_Ferrite")
 		(at 138.43 85.09 180)
 		(unit 1)
 		(body_style 1)
@@ -8399,7 +8402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 270.51 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -8708,7 +8711,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 232.41 133.35 0)
 		(unit 1)
 		(body_style 1)
@@ -8849,7 +8852,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 212.09 125.73 90)
 		(unit 1)
 		(body_style 1)
@@ -8988,7 +8991,7 @@
 		)
 	)
 	(symbol
-		(lib_id "E-M-IntegratedCircuits:RT8293BHZSP")
+		(lib_id "VELION_VCU_Library:RT8293BHZSP")
 		(at 179.07 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -9152,7 +9155,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 153.67 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -9293,7 +9296,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "VELION_VCU_Library:C")
 		(at 160.02 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -9434,7 +9437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "VELION_VCU_Library:R")
 		(at 219.71 100.33 90)
 		(unit 1)
 		(body_style 1)

@@ -1,0 +1,302 @@
+(footprint "SOIC127P600X175-9N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "sop-8")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 1.814 3.795 180)
+		(layer "F.SilkS")
+		(uuid "b7f7295a-958e-426a-99e6-a5b16248441b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RT8293BHZSP"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7f2aa2de-061d-44e9-a5a6-370c4d9cd114")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.richtek.com/assets/product_file/RT8293B/DS8293B-04.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03c802bd-3eaf-4733-9a3d-3db840eb013b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "RICHTEK - RT8293BHZSP - DC/DC CONV, SYNC BUCK, 1.2MHZ, SOP-8"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f90d910a-63ad-41ae-9af6-497643414eda")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Supplier" "MOUSER"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "758b4ea8-ac1d-4b25-aa74-c1b414c55cce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part Number" "835-RT8293BHZSP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2f669a2-2ac0-49b2-87b7-7761ede0b9b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "RICHTEK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7b2a4dd-d5ba-4ff3-a901-5d9b58deb8bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "RT8293BHZSP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4dd537c-2458-4e87-8c01-69179a2cb64d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Price" "13.85"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35075438-fbc3-4ad3-9c5a-cd79e06752d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/InputPowerCircuits/")
+	(sheetfile "InputPower.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.475 -2.605)
+		(end -1.952 -2.605)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89a3a2a4-cba5-4ec6-904c-6d29bf1d3f8f")
+	)
+	(fp_line
+		(start -3.725 -2.752)
+		(end 3.725 -2.752)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20dcfec7-e74a-4329-afaf-586fcc8d0126")
+	)
+	(fp_line
+		(start -3.725 2.752)
+		(end -3.725 -2.752)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0bc9001-63bc-467d-88aa-4c491fd68df9")
+	)
+	(fp_line
+		(start 3.725 -2.752)
+		(end 3.725 2.752)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0dcf3b77-09f2-4e51-a4b2-e25523cec678")
+	)
+	(fp_line
+		(start 3.725 2.752)
+		(end -3.725 2.752)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "319a37d5-616b-4e6f-bf97-961583e0806a")
+	)
+	(fp_line
+		(start -1.952 -2.451)
+		(end 1.952 -2.451)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b05a4f48-fe9f-4b23-a847-6043b222a94a")
+	)
+	(fp_line
+		(start -1.952 -1.181)
+		(end -0.682 -2.451)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd1738c6-766d-4515-ba70-d6771d4507aa")
+	)
+	(fp_line
+		(start -1.952 2.451)
+		(end -1.952 -2.451)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4bf65b1-4887-4f3c-b5e9-6131fd599262")
+	)
+	(fp_line
+		(start 1.952 -2.451)
+		(end 1.952 2.451)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce7c419e-7f77-4541-81f4-0d842fbfd1c8")
+	)
+	(fp_line
+		(start 1.952 2.451)
+		(end -1.952 2.451)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2eb9684b-0819-415b-9dc8-47f210182339")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "f2f2cee1-c3ba-4e9c-b7df-ee2d5a3e8182")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.714 -1.905 90)
+		(size 0.7 1.522)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f7c3b91-4008-4500-adf8-dd35e9196134")
+	)
+	(pad "2" smd rect
+		(at -2.714 -0.635 90)
+		(size 0.7 1.522)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1fab09d4-7d88-45ee-90d4-ba79838c1eea")
+	)
+	(pad "3" smd rect
+		(at -2.714 0.635 90)
+		(size 0.7 1.522)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9bbb72e5-5bbe-4af6-8625-7dc8565e81da")
+	)
+	(pad "4" smd rect
+		(at -2.714 1.905 90)
+		(size 0.7 1.522)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c5bcf832-5e5e-4d31-a668-989862d172f6")
+	)
+	(pad "5" smd rect
+		(at 2.714 1.905 90)
+		(size 0.7 1.522)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d1ed960e-ac90-4740-8fad-0a96e5bdf71d")
+	)
+	(pad "6" smd rect
+		(at 2.714 0.635 90)
+		(size 0.7 1.522)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4a144907-4e78-497c-bbf9-d279cef82b62")
+	)
+	(pad "7" smd rect
+		(at 2.714 -0.635 90)
+		(size 0.7 1.522)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d981cc1e-1b77-4fe8-be29-d8ea28846330")
+	)
+	(pad "8" smd rect
+		(at 2.714 -1.905 90)
+		(size 0.7 1.522)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "49568a0d-fdfd-4183-bd8d-2731f97fbc22")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 2.3 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(thermal_bridge_width 1)
+		(thermal_gap 0.3)
+		(uuid "0282799d-950e-4759-801f-17c0d66313fd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

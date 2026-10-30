@@ -1,0 +1,345 @@
+(footprint "Amphenol_M8S-03PMMR-SF8001"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "M8 Male connector for panel, 90° PCB mount (https://www.amphenolltw.com/2012download/2D%20PDF/03_M%20Series%20Sensor%20Connectors/M8S-XXPMMR-SF8001.pdf)")
+	(tags "three-pin M8")
+	(property "Reference" "REF**"
+		(at -5.6 -8.4 180)
+		(layer "F.SilkS")
+		(uuid "63b6c291-851e-4e80-bd8b-c7fa15b59f88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IEC61076-2_M8_B-coding_01x03_Plug_Shielded"
+		(at -8.2 12.2 180)
+		(layer "F.Fab")
+		(uuid "b5eb4a32-e760-4e13-9b19-c2638c25e0b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95b2c28a-83fb-4aae-9a66-06b7b2698358")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "IEC 61076-2 3 ways shielded M8 A-coding plug connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60092b50-207b-4037-81f5-dcebffcd1d81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "*M8*03*")
+	(sheetname "/PowertrainInterface/")
+	(sheetfile "PowertrainInterface.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -20 -2.1)
+		(end -8 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eded477a-e4b0-4809-85b8-56b0e3ba71e6")
+	)
+	(fp_line
+		(start -20 5.6)
+		(end -20 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f282b13-b474-44be-8b17-77bb69abe538")
+	)
+	(fp_line
+		(start -20 5.6)
+		(end -8 5.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe6cbc36-4668-4e34-a805-b5471d44f2ba")
+	)
+	(fp_line
+		(start -8 -5)
+		(end -2.5 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c55da0dc-b7d7-4188-95d7-235511e50f69")
+	)
+	(fp_line
+		(start -8 -2.1)
+		(end -8 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b58afe4e-4783-4bf4-9391-c011c9db7ffd")
+	)
+	(fp_line
+		(start -8 5.6)
+		(end -8 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fa94737-255c-4e67-95f7-b6023a639293")
+	)
+	(fp_line
+		(start -8 8.5)
+		(end -2.5 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25d8073f-cfd5-4e6b-b3d2-9d86b6889b03")
+	)
+	(fp_line
+		(start 3 0.25)
+		(end 3 -2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f8abd7d-c03c-4685-909e-c99dfb98a6c2")
+	)
+	(fp_line
+		(start 3 5.75)
+		(end 3 3.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "357273ce-31e9-4b52-8be2-4e3fda711d83")
+	)
+	(fp_line
+		(start -20.3 -7.5)
+		(end -20.3 11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e74b64b-c6ac-4fe6-92ab-3ced318e0e5e")
+	)
+	(fp_line
+		(start -20.3 11)
+		(end 3.45 11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13246bec-d82a-4092-87de-699c73d5f764")
+	)
+	(fp_line
+		(start 3.45 -7.5)
+		(end -20.3 -7.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d721618b-f24b-403e-84db-f10b5102a49b")
+	)
+	(fp_line
+		(start 3.45 11)
+		(end 3.45 -7.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95893246-bb39-4064-9e7f-f9d53c2a310f")
+	)
+	(fp_line
+		(start -19.8 -1.95)
+		(end -7.8 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e2dd218-7618-4718-92c7-246893010bc3")
+	)
+	(fp_line
+		(start -19.8 5.45)
+		(end -19.8 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1825f80e-37a1-4efc-90d8-7ef671a13880")
+	)
+	(fp_line
+		(start -19.8 5.45)
+		(end -7.8 5.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0398e7cd-3f5d-479f-a058-141401c2f2d2")
+	)
+	(fp_line
+		(start -7.8 -4.85)
+		(end -2.5 -4.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbc2eb24-82b3-4607-920e-26013d4792d5")
+	)
+	(fp_line
+		(start -7.8 -1.95)
+		(end -7.8 -4.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3d2546b-49fd-4ad7-a182-827efc198e58")
+	)
+	(fp_line
+		(start -7.8 5.45)
+		(end -7.8 8.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2315e75b-b004-4501-8289-35d173e84446")
+	)
+	(fp_line
+		(start -7.8 8.35)
+		(end -2.5 8.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b35526ce-3064-463a-bb88-41f88280f929")
+	)
+	(fp_line
+		(start 2.8 0.25)
+		(end 2.8 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bf6aaff-de5b-4696-abfd-b3ce89ae8b42")
+	)
+	(fp_line
+		(start 2.8 5.75)
+		(end 2.8 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b11a079-3999-4b29-bc29-f3c5c82ca63a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5.6 1.75 180)
+		(layer "F.Fab")
+		(uuid "6de97fc3-247b-4f9f-810d-7224511f9b4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0 135)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "c7b649fd-abd2-4699-92bf-21f9be08834b")
+	)
+	(pad "2" thru_hole circle
+		(at 1.95 1.75 90)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b3427701-e420-451f-9387-7799b81c3b25")
+	)
+	(pad "3" thru_hole circle
+		(at 0 3.5 90)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8bac537-44a7-44b7-9cea-e30bb6ecaa0e")
+	)
+	(pad "SH" thru_hole circle
+		(at 0.5 -4.5 90)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d700899b-ef91-4cb1-9002-cd387b97cf05")
+	)
+	(pad "SH" thru_hole circle
+		(at 0.5 8 90)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "85794209-c7a0-449c-80d6-1172120343bb")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Amphenol.3dshapes/Amphenol_M8S-03PMMR-SF8001.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,336 @@
+(footprint "SOT-666"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT666")
+	(tags "SOT-666")
+	(property "Reference" "REF**"
+		(at -0.5 2 180)
+		(layer "F.SilkS")
+		(uuid "d2f9dbfb-678f-450d-8292-c400c1c71b10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USBLC6-2P6"
+		(at 0 1.75 180)
+		(layer "F.Fab")
+		(uuid "cf7a6ec4-4cf7-422e-8838-8a4bcc4ae2d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08e57063-2747-4c49-8a41-9cc6d470a8b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Dioda ochranná - TVS síť pro USB2.0; 6V; SMD SOT666"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e855357c-f7b3-4bf3-b5ef-1bd146a63e5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Var" "USB NoUSB(-!)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8e8882b-1f11-4bf9-98de-ffa91cade798")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "STMicroelectronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "183c9a3d-0642-4455-b8f7-b19a7d58c00c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "USBLC6-2P6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb012bd4-b62c-44b5-90c8-dc25cb119ccd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "TME"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e37bb3c-21ee-43cd-a38f-0c188b5bf674")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part Number" "USBLC6-2P6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57b4c62c-f332-4881-9581-d53f9cbb71bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Price" "5.78"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47ca1b39-d2fa-4318-a35e-7072fd36fca8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "SOT?666*")
+	(sheetname "/USB_PD/")
+	(sheetfile "USB_PD.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.65 -0.99)
+		(end -0.4 -0.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fcf29fa2-9404-4844-81b8-1f76a0a04c95")
+	)
+	(fp_line
+		(start 0.65 0.99)
+		(end -0.65 0.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93fcce50-3be1-4118-9730-3279a9b26369")
+	)
+	(fp_poly
+		(pts
+			(xy -0.77 -0.99) (xy -1.05 -0.99) (xy -0.77 -1.27) (xy -0.77 -0.99)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b998d3d2-81c3-4899-af95-074837262bed")
+	)
+	(fp_line
+		(start -1.5 -1.1)
+		(end -1.5 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e67b17f6-d55f-4071-ae8c-e988ac40c739")
+	)
+	(fp_line
+		(start -1.5 -1.1)
+		(end 1.5 -1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b64059a-5d82-4fed-a4d8-990f504fb779")
+	)
+	(fp_line
+		(start -1.5 1.1)
+		(end 1.5 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "599c5ee5-4500-4fc1-a706-d2dafa5bf5bd")
+	)
+	(fp_line
+		(start 1.5 1.1)
+		(end 1.5 -1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87c0900f-fdce-40f9-b4e8-5bf8a2785e25")
+	)
+	(fp_line
+		(start -0.65 -0.53)
+		(end -0.65 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9347cc1c-0545-4314-9589-7f724e8edd67")
+	)
+	(fp_line
+		(start -0.65 -0.53)
+		(end -0.33 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f592ec6-41cf-40c2-bc8b-b2250f817276")
+	)
+	(fp_line
+		(start 0.65 -0.85)
+		(end -0.33 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "086eec69-eab4-4597-b831-13360adc3aa7")
+	)
+	(fp_line
+		(start 0.65 -0.85)
+		(end -0.33 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39cb2f32-e001-49b2-92f9-17e190d46f04")
+	)
+	(fp_line
+		(start 0.65 -0.85)
+		(end 0.65 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e596251c-b888-4409-a443-eb7015fb1ad4")
+	)
+	(fp_line
+		(start 0.65 0.85)
+		(end -0.65 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30d63f82-8eb3-4393-acfb-1854cdb0e33f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "1a6daf94-b560-479b-b200-324c2219577f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.85 -0.5375)
+		(size 0.5 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "bb4c4fe2-dfaf-4a0b-afa9-d30332a10327")
+	)
+	(pad "2" smd roundrect
+		(at -0.925 0)
+		(size 0.65 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "89720dec-c188-450c-8250-ed56d9840469")
+	)
+	(pad "3" smd roundrect
+		(at -0.85 0.5375)
+		(size 0.5 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2e4f4cf7-8179-469c-bebf-d36a40743186")
+	)
+	(pad "4" smd roundrect
+		(at 0.85 0.5375)
+		(size 0.5 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9fd97991-ffab-40cb-b4dd-c9a9d44e469f")
+	)
+	(pad "5" smd roundrect
+		(at 0.925 0)
+		(size 0.65 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "873dd691-a2af-4b22-956a-29ec631ad370")
+	)
+	(pad "6" smd roundrect
+		(at 0.85 -0.5375)
+		(size 0.5 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ca64022e-a216-487e-9cc5-9f8334a1cd6b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-666.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

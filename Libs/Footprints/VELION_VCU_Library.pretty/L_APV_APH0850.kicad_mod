@@ -1,0 +1,353 @@
+(footprint "L_APV_APH0850"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Inductor, APV, APH0850, 8.6x8.0x4.8mm, (http://en.apvind.com/public/upload/20240408/996aafa961154ed753e4983e7eb80fa7.pdf)")
+	(tags "molded power shielded")
+	(property "Reference" "REF**"
+		(at 0 -5.36 180)
+		(layer "F.SilkS")
+		(uuid "13d85a91-f5e8-4fea-b2d4-444ec3da2b47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "4u7/5A"
+		(at 0 4.95 180)
+		(layer "F.Fab")
+		(uuid "d2ba180a-1f61-4239-aee3-376fbdf618d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cz.mouser.com/datasheet/3/203/1/BMCx_Series.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1db7056-0517-4939-ba3e-bdfdb73db023")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71424d6f-f118-4b11-8a3c-1f48361f6327")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "PULSE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68bb3835-faea-4632-bc7b-6ffa18d4a121")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" " BMCA000606304R7MD1 "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a177610c-ab07-4199-8e16-46d6c863b644")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "MOUSER"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30f1ca52-f89c-47f5-b826-7522032d19cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part Number" " 603-BMCA0606304R7MD1 "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d66f5592-6129-45d6-8869-54ffe7119f6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Price" "7.83"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50653173-b95d-40dc-a753-b64feb14917e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+	(sheetname "/InputPowerCircuits/")
+	(sheetfile "InputPower.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.41 -4.11)
+		(end 4.41 -4.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74f24b25-2245-4a27-b17a-8b66af7cae87")
+	)
+	(fp_line
+		(start -4.41 -2.31)
+		(end -4.41 -4.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e961dd7b-7eaf-4dfa-bcf8-fdf7aa73cd99")
+	)
+	(fp_line
+		(start -4.41 4.11)
+		(end -4.41 2.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca9ce92e-dc95-4f96-b5de-0cdb5bc5b469")
+	)
+	(fp_line
+		(start 4.41 -4.11)
+		(end 4.41 -2.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5c484c8-bf08-4cdd-afe1-90fc3cb2594a")
+	)
+	(fp_line
+		(start 4.41 2.31)
+		(end 4.41 4.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3a19744-f50d-411c-b75e-a0e2c548d2f8")
+	)
+	(fp_line
+		(start 4.41 4.11)
+		(end -4.41 4.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bed03f3-345a-4df2-9167-b6b2fd2c3a70")
+	)
+	(fp_line
+		(start -5.25 -2.3)
+		(end -4.55 -2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "615d61cb-bffd-4282-8a34-9959340aa846")
+	)
+	(fp_line
+		(start -5.25 2.3)
+		(end -5.25 -2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1621342-218e-4731-98d8-a685ddf17383")
+	)
+	(fp_line
+		(start -4.55 -4.25)
+		(end 4.55 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "625e3dfc-c072-455e-8e36-e43232a9fa7d")
+	)
+	(fp_line
+		(start -4.55 -2.3)
+		(end -4.55 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb6cf90b-041c-452a-a749-113d1d0ae351")
+	)
+	(fp_line
+		(start -4.55 2.3)
+		(end -5.25 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a238c18-f501-45f9-bd0b-f96e10ae8958")
+	)
+	(fp_line
+		(start -4.55 4.25)
+		(end -4.55 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53e00ec2-401b-4d24-9a0b-84353dc079ab")
+	)
+	(fp_line
+		(start 4.55 -4.25)
+		(end 4.55 -2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4413755e-4b10-46bd-b9ab-9a5a5137090f")
+	)
+	(fp_line
+		(start 4.55 -2.3)
+		(end 5.25 -2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1f0274c-171d-49db-bfd5-91b744aabb89")
+	)
+	(fp_line
+		(start 4.55 2.3)
+		(end 4.55 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7b2dda0-16de-4dc1-a91e-db4ea62d67fd")
+	)
+	(fp_line
+		(start 4.55 4.25)
+		(end -4.55 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0470c2d2-1d18-4df2-a321-8daff1d1a6dd")
+	)
+	(fp_line
+		(start 5.25 -2.3)
+		(end 5.25 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe4f7c98-a400-4074-8cd9-85becde04892")
+	)
+	(fp_line
+		(start 5.25 2.3)
+		(end 4.55 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48703d39-7250-41f5-aeff-71d1ed7f7cb6")
+	)
+	(fp_rect
+		(start -4.3 -4)
+		(end 4.3 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0ad4b4a5-12b7-43f8-8632-047d2c610493")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "0cfff9b3-9355-457e-9f6e-fbe166cfbbf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.5 0)
+		(size 3 4.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.083333)
+		(uuid "da59a2c6-db38-4ff7-bba4-18342018d8cc")
+	)
+	(pad "2" smd roundrect
+		(at 3.5 0)
+		(size 3 4.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.083333)
+		(zone_connect 1)
+		(thermal_bridge_width 1)
+		(thermal_gap 0.5)
+		(uuid "2fe3a2d5-ad2c-462c-afab-5a92f2c9ee5e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_APV_APH0850.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,211 @@
+(footprint "Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "EuroQuartz EQ161, Crystal, 3.2x1.5mm package, SMD, http://cdn-reichelt.de/documents/datenblatt/B400/PG32768C.pdf")
+	(property "Reference" "REF**"
+		(at -1.200411 2.241393 0)
+		(layer "F.SilkS")
+		(uuid "761f89f3-a96e-4683-af46-87b058d147a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "32,768kHz"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "0bdfbc8c-91de-46e0-9d6d-c956de329ed6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.tme.eu/Document/1715bc6d131b1ad91d69b69b4cd9cb89/ABS07.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e429699c-c2dc-465a-afa4-817e1b6e1a41")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Two pin crystal"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1004661-78f9-48bf-b4dc-348324a8c1ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "ABRACON"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6524c27-a1f1-4c8d-8500-dce539e20640")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "ABS07-32.768KHZ-1-T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "145c35a8-e083-4163-bf0a-fbd8e4091562")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part Number" "ABS07-32.768KHZ-1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "177f135c-5c6f-4dbe-97f9-c039b57749b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Price" "8.13"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5577c465-8f7b-4320-8a85-36d6745a4173")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "TME"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a2789ce-d40a-4e61-a70a-b746b1169873")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Crystal*")
+	(sheetname "/MCU/")
+	(sheetfile "MCU.kicad_sch")
+	(attr smd dnp)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.01 -0.9)
+		(end -2.01 0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52bab90a-f87c-431f-9004-65578040ebf5")
+	)
+	(fp_line
+		(start -0.49 -1.01)
+		(end 0.49 -1.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ba9ec7c-2711-4052-a5f2-4edbcfab3ed1")
+	)
+	(fp_line
+		(start -0.49 1.01)
+		(end 0.49 1.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d8beecd-155f-4f93-89ab-d31093a36edb")
+	)
+	(fp_rect
+		(start -2.1 -1.25)
+		(end 2.1 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6183e335-4592-43f6-b164-c2349b2eb997")
+	)
+	(fp_poly
+		(pts
+			(xy 1.6 -0.75) (xy 1.6 0.75) (xy -1.225 0.75) (xy -1.6 0.375) (xy -1.6 -0.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9fbac1b4-1576-4347-90de-c624a353c139")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "245b8bf0-6e91-44da-9665-c3f9f4ae83ea")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.25 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c108dd7d-3e8b-419b-a4ca-fc30c65df379")
+	)
+	(pad "2" smd roundrect
+		(at 1.25 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f4bd7c00-d849-41c3-be93-d649b2dce661")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "VELION_VCU_Library") (type "KiCad") (uri "${KIPRJMOD}/Libs/Footprints/VELION_VCU_Library.pretty") (options "") (descr ""))
+)
