@@ -5409,7 +5409,7 @@
 			(justify right bottom)
 		)
 		(uuid "67c8f1f0-e679-4379-a366-ac6777762bf6")
-		(property "Netclass" "HS_USB"
+		(property "Net Class" "HS_USB"
 			(at 58.674 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
