@@ -7121,7 +7121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110-GF-A"
+		(property "Footprint" "VELION_VCU_Library:USB_C_Receptacle_GCT_USB4110-GF-A"
 			(at 34.29 41.91 0)
 			(hide yes)
 			(show_name no)

@@ -5299,7 +5299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "E-M-IntegratedCircuits:LSM6DS3USTR"
+		(property "Footprint" "VELION_VCU_Library:LSM6DS3USTR"
 			(at 149.86 115.24 0)
 			(hide yes)
 			(show_name no)
@@ -5635,7 +5635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E-M-IntegratedCircuits:BMP581"
+		(property "Footprint" "VELION_VCU_Library:BMP581"
 			(at 144.78 204.14 0)
 			(hide yes)
 			(show_name no)
@@ -6344,7 +6344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E-M-IntegratedCircuits:IIS2MDCTR"
+		(property "Footprint" "VELION_VCU_Library:IIS2MDCTR"
 			(at 157.48 167.31 0)
 			(hide yes)
 			(show_name no)

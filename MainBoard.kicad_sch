@@ -5,367 +5,6 @@
 	(uuid "6deb7572-40fc-4be3-9f80-b7a356c09b38")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x09"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x09"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x09_1_1"
-				(rectangle
-					(start -1.27 11.43)
-					(end 1.27 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 10.16 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x25_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2012,6 +1651,426 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "VELION_VCU_Library:KF2EDGR-7.62-2P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KF2EDGR-7.62-2P"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "VELION_VCU_Library:CONN-TH_P7.62_KF2EDGR-7.62-2P"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Cixi-Kefa-Elec-KF2EDGR-7-62-2P_C441214.html"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "KEFA(科发)"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "KF2EDGR-7.62-2P"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C441214"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Pluggable System Terminal Block"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KF2EDGR-7.62-2P_0_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VELION_VCU_Library:KF2EDGRM-3.5-7P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KF2EDGRM-3.5-7P"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "VELION_VCU_Library:CONN-TH_7P-P3.50_KF2EDGRM-3.5-7P"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Cixi-Kefa-Elec-KF2EDGRM-3-5-7P_C441262.html"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "KEFA(科发)"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "KF2EDGRM-3.5-7P"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C441262"
+				(at 0 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Pluggable System Terminal Block"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KF2EDGRM-3.5-7P_0_1"
+				(rectangle
+					(start -1.27 10.16)
+					(end 3.81 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 8.89)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 7.62 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -5.08 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -7.62 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "VELION_VCU_Library:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -3229,7 +3288,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 66.04) (xy 19.05 66.04)
+			(xy 35.56 81.28) (xy 21.59 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3319,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 167.64) (xy 33.02 66.04)
+			(xy 35.56 167.64) (xy 35.56 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3469,7 +3528,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 71.12) (xy 30.48 71.12)
+			(xy 21.59 86.36) (xy 33.02 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3559,7 +3618,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 160.02) (xy 36.83 160.02)
+			(xy 59.69 160.02) (xy 39.37 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3639,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 162.56) (xy 59.69 162.56)
+			(xy 38.1 162.56) (xy 59.69 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3789,7 +3848,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 170.18) (xy 31.75 170.18)
+			(xy 59.69 170.18) (xy 34.29 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3869,7 +3928,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 165.1) (xy 34.29 63.5)
+			(xy 36.83 165.1) (xy 36.83 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4089,7 +4148,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 68.58) (xy 31.75 170.18)
+			(xy 34.29 83.82) (xy 34.29 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4409,7 +4468,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 58.42) (xy 19.05 58.42)
+			(xy 39.37 73.66) (xy 21.59 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4419,7 +4478,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 175.26) (xy 29.21 73.66)
+			(xy 31.75 175.26) (xy 31.75 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4429,7 +4488,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 60.96) (xy 35.56 60.96)
+			(xy 21.59 76.2) (xy 38.1 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4569,7 +4628,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 175.26) (xy 29.21 175.26)
+			(xy 59.69 175.26) (xy 31.75 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4619,7 +4678,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 160.02) (xy 36.83 58.42)
+			(xy 39.37 160.02) (xy 39.37 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4629,7 +4688,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 60.96) (xy 35.56 162.56)
+			(xy 38.1 76.2) (xy 38.1 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4639,7 +4698,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 73.66) (xy 29.21 73.66)
+			(xy 21.59 88.9) (xy 31.75 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4879,7 +4938,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 167.64) (xy 33.02 167.64)
+			(xy 59.69 167.64) (xy 35.56 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4889,7 +4948,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 63.5) (xy 19.05 63.5)
+			(xy 36.83 78.74) (xy 21.59 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4906,16 +4965,6 @@
 			(type default)
 		)
 		(uuid "92111434-8517-4d1c-a8d5-d515fbe4c76d")
-	)
-	(wire
-		(pts
-			(xy 19.05 53.34) (xy 60.96 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "935a8549-85be-4853-a662-a050a49fed49")
 	)
 	(wire
 		(pts
@@ -4939,7 +4988,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 55.88) (xy 60.96 55.88)
+			(xy 21.59 55.88) (xy 60.96 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5149,7 +5198,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 68.58) (xy 31.75 68.58)
+			(xy 21.59 83.82) (xy 34.29 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5579,7 +5628,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 165.1) (xy 34.29 165.1)
+			(xy 59.69 165.1) (xy 36.83 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5799,7 +5848,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 71.12) (xy 30.48 172.72)
+			(xy 33.02 86.36) (xy 33.02 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5989,13 +6038,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 172.72) (xy 59.69 172.72)
+			(xy 33.02 172.72) (xy 59.69 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f7393fdf-84c9-4d29-b87f-7327189db715")
+	)
+	(wire
+		(pts
+			(xy 21.59 53.34) (xy 60.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7561e66-9285-4080-b98e-4ad6cb173832")
 	)
 	(wire
 		(pts
@@ -8554,7 +8613,7 @@
 		(uuid "223f6db7-a3a5-4ed7-8989-85ec74e9e9de")
 	)
 	(label "POWER"
-		(at 19.05 68.58 0)
+		(at 21.59 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8574,7 +8633,7 @@
 		(uuid "3e8dbcb1-5b8d-4a5c-a4fe-739c8cec0ae1")
 	)
 	(label "CAN_SHIELD"
-		(at 19.05 63.5 0)
+		(at 21.59 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8684,7 +8743,7 @@
 		(uuid "b570f80b-0b67-42dc-b354-8d5cd77e7719")
 	)
 	(label "CAN_L"
-		(at 19.05 58.42 0)
+		(at 21.59 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8724,7 +8783,7 @@
 		(uuid "c432f8d3-cd74-4df1-8fa8-0776d9b6a603")
 	)
 	(label "POWER_GND"
-		(at 19.05 73.66 0)
+		(at 21.59 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8744,7 +8803,7 @@
 		(uuid "cf207290-7ea3-45ac-9c59-f85337fa940e")
 	)
 	(label "KEY"
-		(at 19.05 71.12 0)
+		(at 21.59 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8774,7 +8833,7 @@
 		(uuid "e5ad3486-cc55-44c6-9285-28b4516c71ec")
 	)
 	(label "CAN_H"
-		(at 19.05 60.96 0)
+		(at 21.59 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8784,7 +8843,7 @@
 		(uuid "f2736c6a-e4b3-4250-866a-c2b8c8624809")
 	)
 	(label "CAN_GND"
-		(at 19.05 66.04 0)
+		(at 21.59 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8966,6 +9025,247 @@
 		)
 	)
 	(symbol
+		(lib_id "VELION_VCU_Library:KF2EDGR-7.62-2P")
+		(at 17.78 54.61 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15906764-2eba-42d7-915a-6223a5ced142")
+		(property "Reference" "CN1"
+			(at 16.51 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KF2EDGR-7.62-2P"
+			(at 23.622 49.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VELION_VCU_Library:CONN-TH_P7.62_KF2EDGR-7.62-2P"
+			(at 17.78 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Cixi-Kefa-Elec-KF2EDGR-7-62-2P_C441214.html"
+			(at 17.78 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEFA(科发)"
+			(at 17.78 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KF2EDGR-7.62-2P"
+			(at 17.78 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C441214"
+			(at 17.78 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f61bb8d-e9b1-4020-8473-bd024f3d051f")
+		)
+		(pin "2"
+			(uuid "793a5863-d444-4e2f-92b3-a4ba7bfe43f2")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VELION_VCU_Library:KF2EDGRM-3.5-7P")
+		(at 17.78 81.28 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15c3adb3-ae39-444d-a57c-a8d180c0366f")
+		(property "Reference" "CN2"
+			(at 16.51 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KF2EDGRM-3.5-7P"
+			(at 22.86 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VELION_VCU_Library:CONN-TH_7P-P3.50_KF2EDGRM-3.5-7P"
+			(at 17.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Cixi-Kefa-Elec-KF2EDGRM-3-5-7P_C441262.html"
+			(at 17.78 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEFA(科发)"
+			(at 17.78 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KF2EDGRM-3.5-7P"
+			(at 17.78 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C441262"
+			(at 17.78 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "fe14911a-0dba-4bcd-a3cf-a47c20ac10c8")
+		)
+		(pin "2"
+			(uuid "217e95d4-dfc5-4243-9917-ae100eec633a")
+		)
+		(pin "3"
+			(uuid "b6941643-5cd1-45b7-bbf4-42a41d205e81")
+		)
+		(pin "7"
+			(uuid "599808c3-7d10-4b0a-a41f-7902522118ea")
+		)
+		(pin "5"
+			(uuid "7325bf17-8f3c-4161-823e-67df9d263faf")
+		)
+		(pin "6"
+			(uuid "fecb8563-4872-4048-bfa8-a375feb593f3")
+		)
+		(pin "1"
+			(uuid "42b56806-ab28-4089-aaef-78d20966fd4d")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x25_Odd_Even")
 		(at 363.22 204.47 0)
 		(unit 1)
@@ -8996,7 +9296,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Horizontal"
 			(at 363.22 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -9183,106 +9483,6 @@
 			(project "MainBoard"
 				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x09")
-		(at 13.97 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2e1fed4e-6cbc-4a22-9e21-98fff1d25e82")
-		(property "Reference" "J5"
-			(at 13.97 50.546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x09"
-			(at 24.13 51.562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 13.97 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 13.97 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 13.97 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f34ed0f-8c9c-4250-9a29-8809d60a0c34")
-		)
-		(pin "2"
-			(uuid "9be99ff7-7438-4bf4-ae8f-748df7937e97")
-		)
-		(pin "6"
-			(uuid "c3368a93-c148-4a44-9189-3bb4b716d4c0")
-		)
-		(pin "7"
-			(uuid "ad856f91-db4c-400d-92fa-4d5d3d564d68")
-		)
-		(pin "8"
-			(uuid "a7e4fefb-f1eb-4292-9a7d-23fd4193afa0")
-		)
-		(pin "4"
-			(uuid "bfb01f1c-64ea-4616-98a4-71aafdb97afb")
-		)
-		(pin "3"
-			(uuid "fc1a50b3-5df9-490d-8788-6534424115c3")
-		)
-		(pin "5"
-			(uuid "f8e691c3-6928-448e-9940-e33643d092e7")
-		)
-		(pin "9"
-			(uuid "59e034b3-cce9-4345-a30c-7de88bb9d07d")
-		)
-		(instances
-			(project "MainBoard"
-				(path "/6deb7572-40fc-4be3-9f80-b7a356c09b38"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9780,7 +9980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Horizontal"
 			(at 378.46 53.34 0)
 			(hide yes)
 			(show_name no)

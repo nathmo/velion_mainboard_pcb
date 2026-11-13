@@ -4650,7 +4650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E-M-IntegratedCircuits:SOIC127P600X175-9N"
+		(property "Footprint" "VELION_VCU_Library:SOIC127P600X175-9N"
 			(at 133.35 180.01 0)
 			(hide yes)
 			(show_name no)
@@ -10475,7 +10475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E-M-IntegratedCircuits:SOIC127P600X175-9N"
+		(property "Footprint" "VELION_VCU_Library:SOIC127P600X175-9N"
 			(at 142.24 225.73 0)
 			(hide yes)
 			(show_name no)
